@@ -1,0 +1,67 @@
+---
+template: DefaultPage
+slug: detta-ingar-i-flyttstadningen
+title: Detta ingår i flyttstädningen
+featuredImage: '../images/flyttstadning.jpg'
+offertknapp: 'Begär offert'
+subtitle:
+meta:
+  description:  
+  title:  Detta ingår i flyttstädningen
+---
+
+## I vår flyttstädning ingår följande tjänster:
+
+##### Allmänt
+
+- Dammsugning och våttorkning av golv
+- Damning av väggar vid behov. Fläckar tas bort om det inte finns risk att tapeten skadas.
+- Lister, eluttag, strömbrytare torkas av
+- Dörrkarmar, dörrhandtag, trösklar och dörrar torkas av
+- Fönsterputsning, in- och utvändigt. 
+- Rengöring av fönsterkarmar
+- Avtorkning av garderober och skåp – och in- och utvändigt (samt ovanpå)
+- Element rengörs på och bakom (vi skruvar ej av elementen)
+- Fast belysning torkas av
+
+##### Kök
+
+- Rengöring av spis in- och utvändigt samt bakom. Galler och plåtar diskas. *Om ni har en ugn som har pyrolysemalj inuti så vill vi att ni informerar om detta vid bokning.* Detta eftersom man ej kan använda vanlig ungsrengöring utan måste använda specialmedel.
+- Rengöring av kyl och frys in- och utvändigt. 
+- Köksfläkt och kåpa rengörs, filter diskas
+- Diskbänk, vask och arbetsbänkar rengörs
+- Diskmaskin rengörs in- och utvändigt, filter rensas
+- Skåpluckor torkas av, skåp och lådor torkas ur in- och utvändigt
+- Kakelväggar torkas av
+
+##### Badrum och toalett
+
+- Tvättställ rengörs på alla sidor
+- Badrumsskåp rengörs in- och utvändigt samt ovanpå
+- Alla synliga rör torkas av
+- Toalettstol rengörs in- och utvändigt, samt kalkas av vid behov
+- Golvbrunn rensas
+- Rengöring av hela golvet
+- Rengöring av badkar / dusch på utsidan och insidan samt under
+- Kakelväggar tvättas av
+
+##### Övrigt
+
+- Tvättmaskin och torktumlare rengörs. Filter rensas.
+
+##### Extra
+
+- Om ni vill att vi utför något utöver ovanstående, såsom städning av balkong, källare eller vind, kan vi självklart göra det till en extra kostnad.
+
+### Observera
+
+Vi rengör inte bakom tunga maskiner såsom diskmaskin, tvättmaskin eller torktumlare p g a risk för skador på golv, maskiner, slangar eller dylikt.
+
+ 
+Vi drar inte fram kyl/frys och spis om det finns risk att vi gör märken på känsliga golv. Om ni vill ha rengjort bakom och under på dessa ytor kan vi hjälpa er med att dra ut dem men vi tar inte ansvar för möjliga skador i sådana fall.
+ 
+Vi ser gärna att ni monterar bort badkarsfronten (om möjligt) så att vi kommer åt att rengöra under/ bakom badkar. Vi ser även gärna att ni monterar bort skyddsglas till ugnen om denna skall diskas.
+ 
+Fönsterrutor kommer inte att tvättas utvändigt vid minusgrader.   Utsidan putsas i den mån personalen kan komma åt utan problem.
+ 
+Väggar rengörs i regel enbart med dammtorkning. Vatten är vi väldigt sparsamma med att använda på väggar, eftersom tapeter eller färg kan förstöras.

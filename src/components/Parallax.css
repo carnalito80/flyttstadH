@@ -1,0 +1,60 @@
+.Parallax {
+/* Set a specific height */
+min-height: 800px; 
+font-size: 19px;
+font-weight: 600;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+/* background-position: -71px 20%; */
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+/* height: 100%;
+--translateX: -174.617px;
+transform: translateX(var(--translateX)); */
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .Parallax {
+    background-attachment: scroll;
+  }
+}
+.Parallax ul {
+  width: 100%;
+
+}
+.Parallax li {
+  margin-top: 10px;
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+}
+.Paratitle {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.Paradesc {
+  font-size: 16px;
+font-weight: 400;
+}
+.Overlay {
+  height:  800px; 
+  background-color: #0C0C0C6E;
+  opacity: 0.72;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.Left {
+  max-width: 80%;
+}
+
+.Separator {
+  align-items: center;
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom-color: #383838;
+
+}
