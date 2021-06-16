@@ -67,7 +67,7 @@ export const BlogIndexTemplate = ({
             title={title}
             subtitle={subtitle}
             backgroundImage={featuredImage}
-            offertknapp='Begär Offert'
+            offertknapp='Boka din städning här'
           />
 
           {!!postCategories.length && (
@@ -138,7 +138,7 @@ export const pageQuery = graphql`
     }
 
     posts: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "posts" } } }
+      filter: { fields: { contentType: { eq: "flyttguiden" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {

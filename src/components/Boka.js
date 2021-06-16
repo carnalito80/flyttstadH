@@ -32,7 +32,7 @@ class Form extends React.Component {
       })
         return
     }
-    if (data.email == '') {
+    if (data.email != '') {
       this.setState({
         alert: "Informationen inte skickad. Tack!",
         disabled: true
@@ -93,52 +93,26 @@ class Form extends React.Component {
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
           )}
-        <strong>Jag vill..</strong>
-         <fieldset>
-           
-           <label class="Form--Label Form--Radio">
-           
-           <input 
-           className="Form--RadioInput"
-           type="radio"
-           name="typ"
-           value="flyttstad"
-         />
-           <span>Boka flyttstädning</span>
-           </label>
-           <label class="Form--Label Form--Radio">
-           <input 
-           className="Form--RadioInput"
-           type="radio"
-           name="typ"
-           value="offert"
-           />
-           <span>Få offert</span>
-           </label>
-           </fieldset>
-         <label className='Form--Label'>
+          <label className='Form--Label'>
       <input
         className='Form--Input  Form--InputText'
         type='text'
-        placeholder='Namn (obligatoriskt)'
+        placeholder='Namn'
         name='namn'
         required
       />
-       <span>Namn (obligatoriskt)</span>
+       <span>Namn</span>
     </label>
-
     <label className='Form--Label'>
       <input
         className='Form--Input Form--InputText'
         type='text'
         placeholder='Adress'
         name='adress'
-  
+        required
       />
        <span>Adress</span>
     </label>
- 
-
     <label className='Form--Label'>
       <input
         className='Form--Input Form--InputText'
@@ -147,79 +121,133 @@ class Form extends React.Component {
         name='epost'
         required
       />
-       <span>E-post (obligatoriskt)</span>
+       <span>E-post</span>
     </label>
-
     <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
               type="text"
               placeholder="Telefonnummer"
-              name="telefon"/>
+              name="telefon"
+              required
+              />
              <span>Telefonnummer</span>
      </label>
+     <div >
+         <fieldset>
+           
+           <label class="Form--Label Form--Radio">
+           
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="49"
+         />
+           <span>0-49 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="59"
+           />
+           <span>50-59 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="69"
+           />
+           <span>60-69 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="79"
+           />
+           <span>70-79 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="89"
+           />
+           <span>80-89 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="99"
+           />
+           <span>90-99 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="114"
+           />
+           <span>100-114 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="124"
+           />
+           <span>115-124 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="136"
+           />
+           <span>125-136 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="148"
+           />
+           <span>137-148 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="159"
+           />
+           <span>149-159 kvm</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="kvadrat"
+           value="160+"
+           />
+           <span>160+ kvm</span>
+           </label>
+           </fieldset>
+           </div>
 
-     <label className="Form--Label">
-            <input
-              className="Form--Input Form--InputText"
-              type="text"
-              placeholder="Kvadratmeter städyta (obligatoriskt)"
-              name="kvadrat"
-              required
-            />
-             <span>Kvadratmeter städyta (obligatoriskt)</span>
-     </label>
-     
-     <label className="Form--Label">
-            <input
-              className="Form--Input Form--InputText"
-              type="text"
-              placeholder="Övriga städytor"
-              name="ovriga_ytor"
-             
-            />
-             <span>Övriga städytor</span>
-     </label>
-     <label className="Form--Label">
-            <input
-              className="Form--Input Form--InputText"
-              type="text"
-              placeholder="Datum för städning"
-              name="datum"
-             
-            />
-             <span>Datum för städning</span>
-     </label>
-     <label className="Form--Label">
-            <input
-              className="Form--Input Form--InputText"
-              type="text"
-              placeholder="Personnummer"
-              name="personnr"
-             
-            />
-             <span>Personnummer</span>
-     </label>
-     <label className="Form--Label">
-            <input
-              className="Form--Input Form--InputText"
-              type="text"
-              placeholder="Fakturaadress"
-              name="fakturaadress"
-             
-            />
-             <span>Fakturaadress</span>
-     </label>
-     <label className='Form--Label'>
-      <textarea
-        className='Form--Input Form--Textarea Form--InputText'
-        placeholder='Övrig Info'
-        name='ovrig'
-        rows='10'
-     
-      />
-          <span>Övrig Info</span>
-    </label>
          
           {/* <div className="g-recaptcha" data-sitekey="6Lf7gPwUAAAAAGD5RgY4pdjRMGn7n7ynDEBNNrdw"></div> */}
           {!!subject && <input type="hidden" name="subject" value={subject} />}
@@ -230,7 +258,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Skicka meddelande"
+            value="Boka nu"
             disabled={this.state.disabled}
           />
         </form>

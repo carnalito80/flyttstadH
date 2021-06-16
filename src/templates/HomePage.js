@@ -1,15 +1,18 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
+import scrollTo from 'gatsby-plugin-smoothscroll';
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import Parallax from '../components/Parallax'
+import Stars from '../components/Stars'
 import { Link } from 'gatsby'
+import Boka from '../components/Boka'
 
 import Image from '../components/Image'
 import '../components/PostCard.css'
 import '../components/PostSection.css'
+
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, body }) => (
@@ -28,7 +31,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
         <p>“vi på flyttstädning Helsingborg är en pålitlig städfirma, med personal som du kan lita på”<br></br>
         <strong>Gör som flera andra och boka flyttstädning Helsingborg redan idag</strong>
         </p>
-        <Link to="#priser"><div className="Button">Priser</div></Link>
+        <div  onClick={() => scrollTo('#priser')} className="Button">Priser</div>
       </div>
     </section>
 <section className="section">
@@ -159,6 +162,7 @@ Vissa saker måste ni som kund se till att ordna innan flyttstädningen:</p>
 <p>
 Om det det ska rengöras bakom exempelvis kyl och frys, behövs dessa vara framdragna.
 </p>
+<Link to="/vanliga-fragor">   <div className="Button">Mer om våran garanti</div></Link>
       </div>
       <div className="PostCard--HomeP relative"><Image background title="Flyttstädning Helsingborg städar din bostad" src="/images/flyttstadning-helsingborg-bra.jpg" alt="Flyttstädning Helsingborg städar din bostad" /></div>
          
@@ -166,8 +170,16 @@ Om det det ska rengöras bakom exempelvis kyl och frys, behövs dessa vara framd
     </div>
   </div>
 </section>
-<div id="priser"></div>
+<div id="priser" style={{marginBottom:'100px'}}></div>
 <Parallax />
+<Stars />
+<div id="bokaoss" style={{marginBottom:'60px'}}></div>
+<section className="section">
+  <div className="container">
+<h2>Boka Oss På Flyttstädning Helsingborg</h2>
+<Boka name="Flyttstädning Helsingborg" />
+</div>
+</section>
     <section className="section">
       <div className="container">
         <Content source={body} />

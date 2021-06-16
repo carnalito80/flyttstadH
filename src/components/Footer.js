@@ -1,6 +1,7 @@
 import React from 'react'
-import InstagramFeed from './InstagramFeed'
+// import InstagramFeed from './InstagramFeed'
 import './Footer.css'
+import { MapPin, Smartphone, Mail, Info, Disc } from 'react-feather'
 
 export default () => (
   <div>
@@ -11,35 +12,53 @@ export default () => (
     <br /> */}
     {/* <InstagramFeed count="8" /> */}
     <footer className="footer">
-    <section className="section Contact--Section1">
+   
+    <section className="Contact--Section1">
       <div className="container Contact--Section1--Container">
-     
-        <div>
+      <div className="Contact--Details">
+      
+         <a className="Contact--Details--Item" href="/detta-ingar-i-flyttstadningen/">
+                <Disc />Detta ingår i flyttstädningen
+              </a>
+        <a className="Contact--Details--Item" href="/kontakt/">
+          <Disc />Kontakt
+        </a>
+        <a className="Contact--Details--Item" href="/om-oss-pa-flyttstadning-helsingborg/">
+          <Disc />Om oss på flyttstädning Helsingborg
+        </a>
+        <a className="Contact--Details--Item" href="/vanliga-fragor/">
+          <Disc />Vanliga frågor
+        </a>
+      </div>
+              <div className="Contact--Details">
          
-          <ul>
-            <li><a href="/detta-ingar-i-flyttstadningen/">Detta ingår i flyttstädningen</a></li>
-            <li><a href="/kontakt/">Kontakt</a></li>
-            <li><a href="/om-oss-pa-flyttstadning-helsingborg/">Om oss på flyttstädning Helsingborg</a></li>
-            <li><a href="/vanliga-fragor/">Vanliga frågor</a></li>
-          </ul>
-         </div>
-        <div>
-        <p>Flyttstädning Helsingborg<br></br>
+              <a
+                className="Contact--Details--Item"
+                href='https://www.google.com.au/maps/search/Badhusgatan%202,%20Helsingborg'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MapPin /> Badhusgatan 2, Helsingborg
+              </a>
+          
+              <a className="Contact--Details--Item" href="tel:073 637 99 08">
+                <Smartphone /> 073 637 99 08
+              </a>
+          
+         
+              <a className="Contact--Details--Item" href="mailto:info@flyttstädning-helsingborg.nu">
+                <Mail /> info@flyttstädning-helsingborg.nu
+              </a>
+              <a className="Contact--Details--Item" href="">
+                <Info /> Org nr 556930-5146
+              </a>
+          
+          </div>
+       
 
-        <a href="mailto:info@flyttstädning-helsingborg.nu">info@flyttstädning-helsingborg.nu</a>   <br></br>
-        <a href="tel:073 637 99 08">073 637 99 08</a>  <br></br>
-        Badhusgatan 2, 25221 Helsingborg<br></br>
-        Org nr 556930-5146<br></br>
-        </p>
         </div>
-
-        </div></section>
-      {/* <div className="container taCenter">
-        <span>
-          © Copyright {new Date().getFullYear()} {' '}
-          <a href="/">Flyttstädning Helsingborg</a>
-        </span>
-      </div> */}
+        </section>
+      
     </footer>
   </div>
 )

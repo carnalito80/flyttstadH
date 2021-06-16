@@ -1,8 +1,8 @@
 ---
 template: ContactPage
 slug: kontakt
-title: Begär offert
-featuredImage: ../images/window1.webp
+title: Kontakt
+featuredImage: ../images/flyttstadning.jpg
 subtitle: Kontakta oss enkelt via formuläret nedan, så får du svar så snart som möjligt.
 address: 'Badhusgatan 2, Helsingborg'
 phone: 073 637 99 08
@@ -12,8 +12,8 @@ locations:
     lng: '12.41'
     mapLink: ''
 meta:
-  description: Begär en kostnadsfri offert från oss redan idag!
-  title: Boka en kostnadsfri besiktning
+  description: Boka flyttstädning eller få ett pris?
+  title: Kontakta Oss
 ---
 
 #   Boka flyttstädning eller få ett pris?

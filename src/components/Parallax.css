@@ -1,6 +1,6 @@
 .Parallax {
 /* Set a specific height */
-min-height: 800px; 
+min-height: 860px; 
 font-size: 19px;
 font-weight: 600;
 /* Create the parallax scrolling effect */
@@ -39,7 +39,7 @@ transform: translateX(var(--translateX)); */
 font-weight: 400;
 }
 .Overlay {
-  height:  800px; 
+  height:  860px; 
   background-color: #0C0C0C6E;
   opacity: 0.72;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;

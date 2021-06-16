@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: 'https://xn--flyttstdning-helsingborg-wbc.nu/'
   },
   plugins: [
+    'gatsby-plugin-smoothscroll',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
@@ -103,8 +104,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Byta fönster',
-        short_name: 'xn--byta-fnster-wfb.nu',
+        name: 'Flyttstädning Helsingborg',
+        short_name: 'Flyttstädning Helsingborg',
         start_url: '/',
         background_color: '#0b05ae',
         theme_color: '#77CE70',
@@ -113,7 +114,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
-        icon: `${__dirname}/static/favicon.ico` // This path is relative to the root of the site.
+        icon: `${__dirname}/static/icon32.png` // This path is relative to the root of the site.
       }
     },
 
