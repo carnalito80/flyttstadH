@@ -25,14 +25,14 @@ class Form extends React.Component {
     if (this.state.disabled) return
     const form = e.target
     const data = serialize(form)
-    if (data.info != '') {
+    if (data.info !== '') {
       this.setState({
         alert: "Informationen skickad. Tack!",
         disabled: true
       })
         return
     }
-    if (data.email != '') {
+    if (data.email !== '') {
       this.setState({
         alert: "Informationen inte skickad. Tack!",
         disabled: true
