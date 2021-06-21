@@ -38,7 +38,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
   <div className="container">
     <div className="PostSection">
       <div className="PostSection--Grid">
-      <Link to="#" className="PostCard">
+      <Link to="#bokaoss" className="PostCard">
         
       <div className="PostCard--ImageJK relative">
         <img  src="/images/icon-1.png" alt="Hink med skurborste" className="Content-Image"></img>
@@ -50,7 +50,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
           <div className="PostCard--Excerpt"><em>boka direkt via hemsidan hos flyttstädning Helsingborg.</em></div>
           </div>
         </Link>
-        <Link to="#" className="PostCard">
+        <Link to="/om-oss-pa-flyttstadning-helsingborg" className="PostCard">
         
         <div className="PostCard--ImageJK relative">
         <img  src="/images/icon-2.png" alt="En mopp" className="Content-Image"></img>
@@ -62,7 +62,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
         <div className="PostCard--Excerpt"><em>Ni är trygga med oss, gör som 100-tals andra och boka oss idag.</em></div>
       </div>
       </Link>
-      <Link to="#" className="PostCard">
+      <Link to="/vanliga-fragor" className="PostCard">
         
         <div className="PostCard--ImageJK relative">
         <img  src="/images/icon-7.png" alt="En galge med kläder" className="Content-Image"></img>
@@ -177,6 +177,7 @@ Om det det ska rengöras bakom exempelvis kyl och frys, behövs dessa vara framd
 <section className="section">
   <div className="container">
 <h2>Boka Oss På Flyttstädning Helsingborg</h2>
+<p>Fyll i formuläret nedan för att boka en flyttstädning. Alternativt ring <strong><a href="tel:073 637 99 08">073 637 99 08</a></strong>.</p>
 <Boka name="Flyttstädning Helsingborg" />
 </div>
 </section>
