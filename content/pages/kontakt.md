@@ -14,6 +14,7 @@ locations:
 meta:
   description: Boka flyttstädning eller få ett pris?
   title: Boka / Få pris
+  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/kontakt
 ---
 
 ##  Boka flyttstädning eller få ett pris?
