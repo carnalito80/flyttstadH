@@ -1,7 +1,7 @@
 ---
 template: ContactPage
 slug: kontakt
-title: Kontakt
+title: Boka / Få pris
 featuredImage: ../images/flyttstadning.jpg
 subtitle: Kontakta oss enkelt via formuläret nedan, så får du svar så snart som möjligt.
 address: 'Badhusgatan 2, Helsingborg'

@@ -6,7 +6,7 @@ featuredImage: '../images/flyttstadning.jpg'
 offertknapp: 'Begär offert'
 subtitle:
 meta:
-  description:  
+  description: Detta ingår i flyttstädningen hos flyttstädning Helsingborg
   title:  Detta ingår i flyttstädningen
 ---
 

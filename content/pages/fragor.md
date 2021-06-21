@@ -4,7 +4,7 @@ slug: vanliga-fragor
 title: Vanliga Frågor
 featuredImage: '../images/flyttstadning-helsingborg.webp'
 meta:
-  description: Vanliga frågor Besiktning och garanti Vi har en garanti på 3 dagar och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister. Därför är det … Fortsätt läsa "Vanliga frågor"
+  description: Vi har en garanti på 3 dagar och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister. 
   title: Vanliga Frågor
 
 ---
