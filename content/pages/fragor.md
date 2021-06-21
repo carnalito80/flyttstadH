@@ -49,7 +49,7 @@ För att ha rätt till skattereduktion för husarbete måste du ha:
 - fyllt minst 18 år vid beskattningsårets utgång, och
 - haft utgifter för husarbete.
 
-Den skatt som du betalat in under året till Skatteverket måste överstiga det belopp som du vill få skattereduktion på. Du kan som högst få 25 000 kronor i RUT-avdrag per år.
+Den skatt som du betalat in under året till Skatteverket måste överstiga det belopp som du vill få skattereduktion på. Du kan som högst få **75 000** kronor i RUT-avdrag per år.
 
 Dödsbo har inte rätt till skattereduktion. Undantag är om husarbetet utförts före dödsfallet, då kan dödsboet få skattereduktion.
 

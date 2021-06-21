@@ -93,7 +93,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
       <ul >
         <li className="bullet-jk">Dammsugning och våttorkning av golv.</li>
         <li className="bullet-jk">Dörrkarmar, dörrhandtag, trösklar och dörrar torkas av.</li>
-        <li className="bullet-jk">Fönsterputsning, in- och utvändigt samt mellan inner- och ytterglas.</li>
+        <li className="bullet-jk">Fönsterputsning, in- och utvändigt.</li>
         <li className="bullet-jk">Rengöring av fönsterkarmar.</li>
         <li className="bullet-jk">.. och mer!</li>
       </ul>
@@ -116,7 +116,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
 Ni kan istället fokusera på det roliga bitarna och göra ert framtida hem till ett personligt och vackert hem.<br></br><br></br>
 
 När ni anlitar flyttstädning Helsingborg, så är det väldigt mycket som ingår. Ni kan självklart utnyttja RUT-avdraget. 
-Flyttstädning Helsingborg har lång erfarenhet av flyttstädningar, vi garanterar ett rent hem för det nya bostadsägarna
+Flyttstädning Helsingborg har lång erfarenhet av flyttstädningar, vi garanterar ett rent hem för de nya bostadsägarna
 </p>
       </div>
       <div className="PostCard--HomeP relative"><Image background title="En städare" src="/images/service-6.jpg" alt="Flyttstädning Helsingborg hjälper dig flyttstäda" /></div>

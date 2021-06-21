@@ -225,7 +225,7 @@
   transform: scale(1);
 }
 
-.Form--Shelf{
+.Form--Shelf {
   opacity: 0;
   position: absolute;
   top: 0;
