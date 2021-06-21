@@ -31,15 +31,9 @@ export default () => (
         </a>
       </div>
               <div className="Contact--Details">
-         
-              <a
-                className="Contact--Details--Item"
-                href='https://www.google.com.au/maps/search/Badhusgatan%202,%20Helsingborg'
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MapPin /> Badhusgatan 2, Helsingborg
-              </a>
+              <a className="Contact--Details--Item" href="/flyttguiden/">
+          <Disc />Flyttguiden
+        </a>
           
               <a className="Contact--Details--Item" href="tel:073 637 99 08">
                 <Smartphone /> 073 637 99 08
