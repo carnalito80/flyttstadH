@@ -1,9 +1,9 @@
 ---
 meta:
-  canonicalLink: 'https://www.xn--byta-fnster-wfb.nu'
-  description: 'Fönsterspecialister med lång erfarenhet. Kontakta oss för att byta fönster redan idag! Du kan ringa, maila, eller använd vårat formulär.'
+  canonicalLink: 'https://www.xn--flyttstdning-helsingborg-wbc.nu/'
+  description:  'Välkommen till flyttstädning Helsingborg -en pålitlig städfirma med personal du kan lita på.'
   noindex: false
-  title: 'Byta fönster'
+  title: 'Flyttstädning Helsingborg'
 featuredImage: ''
 gallery:
   - alt: ''

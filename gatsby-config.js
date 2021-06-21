@@ -3,7 +3,7 @@ const postcssPresetEnv = require('postcss-preset-env')
 module.exports = {
   siteMetadata: {
     title: 'Flyttstädning Helsingborg',
-    siteUrl: 'https://xn--flyttstdning-helsingborg-wbc.nu/'
+    siteUrl: 'https://www.xn--flyttstdning-helsingborg-wbc.nu/'
   },
   plugins: [
     'gatsby-plugin-smoothscroll',
