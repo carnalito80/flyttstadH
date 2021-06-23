@@ -91,7 +91,7 @@ class Form extends React.Component {
         {/* <Helmet>
           {<script src="https://www.google.com/recaptcha/api.js" />}
         </Helmet> */}
-           <strong>Jag vill..</strong> { this.state.type }
+           <strong>Jag vill..</strong>
          <div onChange={this.setType.bind(this)}>
        
          <label class="Form--Label Form--Radio">
