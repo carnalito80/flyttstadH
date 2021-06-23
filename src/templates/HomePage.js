@@ -160,7 +160,7 @@ Vissa saker måste ni som kund se till att ordna innan flyttstädningen:</p>
 <li>Tillgång till el</li>
 </ul>
 <p>
-Om det det ska rengöras bakom exempelvis kyl och frys, behövs dessa vara framdragna.
+Om det det ska rengöras bakom tvättmaskin, diskmanskiner eller torktumlare behövs dessa vara framdragna.
 </p>
 <Link to="/vanliga-fragor">   <div className="Button">Mer om våran garanti</div></Link>
       </div>
@@ -175,10 +175,28 @@ Om det det ska rengöras bakom exempelvis kyl och frys, behövs dessa vara framd
 <Stars />
 <div id="bokaoss" style={{marginBottom:'60px'}}></div>
 <section className="section">
-  <div className="container">
+<div className="container" >
 <h2>Boka Oss På Flyttstädning Helsingborg</h2>
 <p>Fyll i formuläret nedan för att boka en flyttstädning. Alternativt ring <strong><a href="tel:073 637 99 08">073 637 99 08</a></strong>.</p>
+</div>
+<div className="container  Contact--Section1--Container">
 <Boka name="Flyttstädning Helsingborg" />
+<div>
+<h5>Varför vill ni veta mitt personnummer?</h5>
+<p>
+Vi behöver ha ditt personnummer om du bokar en flyttstädning med oss och vill utnyttja RUT-avdraget. Vi kan nämligen inte ansöka om utbetalning för din räkning från Skatteverket om vi inte har ditt personnummer. 
+Det är Skatteverket som kräver den uppgiften – inte vi.<br></br><br></br>
+
+Dessutom sker betalning mot faktura och då gör det faktureringsbolag som vi anlitar en kreditprövning av våra kunder.</p>
+
+<h5>Vad avses med övriga städytor?</h5>
+<p>
+Exempel på övriga städytor som du vill ha städat eller få prisuppgift på är balkong, vind, förråd, garage och dylikt – det vill säga ytor som inte ingår i själva boytan.</p>
+
+<h5>Vilken övrig info kan vara värt att fylla i?</h5>
+<p>Det kan röra sig om portkod, upplysningar om när överlåtelsen ska ske av huset / lägenheten, om möbler ska finnas kvar när vi städar, om vissa ytor inte behöver rengöras  till exempel.</p>
+
+</div>
 </div>
 </section>
     <section className="section">
@@ -192,7 +210,9 @@ Om det det ska rengöras bakom exempelvis kyl och frys, behövs dessa vara framd
 
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page } }) => (
-  <Layout meta={page.frontmatter.meta || false}>
+  <Layout meta={page.frontmatter.meta || false}
+          title= "test"
+  >
     <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
   </Layout>
 )

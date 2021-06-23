@@ -7,7 +7,7 @@ offertknapp: 'Begär offert'
 subtitle:
 meta:
   description: Detta ingår i flyttstädningen hos flyttstädning Helsingborg
-  title:  Detta ingår i flyttstädningen
+  title: Detta ingår i flyttstädningen | Flyttstädning Helsingborg
   canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/detta-ingar-i-flyttstadningen
 ---
 
@@ -28,10 +28,10 @@ meta:
 ##### Kök
 
 - Rengöring av spis in- och utvändigt samt bakom. Galler och plåtar diskas. *Om ni har en ugn som har pyrolysemalj inuti så vill vi att ni informerar om detta vid bokning.* Detta eftersom man ej kan använda vanlig ungsrengöring utan måste använda specialmedel.
-- Rengöring av kyl och frys in- och utvändigt. 
+- Rengöring av kyl och frys in- och utvändigt. Även bakom dessa.
 - Köksfläkt och kåpa rengörs, filter diskas
 - Diskbänk, vask och arbetsbänkar rengörs
-- Diskmaskin rengörs in- och utvändigt, filter rensas
+- Diskmaskin rengörs in- och utvändigt, filter rensas. Om ni önskar städning bakom diskmaksin, måste denna vara framdragen innan.
 - Skåpluckor torkas av, skåp och lådor torkas ur in- och utvändigt
 - Kakelväggar torkas av
 
@@ -48,7 +48,7 @@ meta:
 
 ##### Övrigt
 
-- Tvättmaskin och torktumlare rengörs. Filter rensas.
+- Tvättmaskin och torktumlare rengörs. Filter rensas. Om ni önskar städning bakom dessa måste de vara framdragna.
 
 ##### Extra
 

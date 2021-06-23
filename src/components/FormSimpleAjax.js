@@ -8,18 +8,26 @@ import './Form.css'
 class Form extends React.Component {
   static defaultProps = {
     name: 'Flyttstädning-Helsingborg',
-    subject: 'Flyttstädning-Helsingborg', // optional subject of the notification email
+    subjectoffert: 'Flyttstädning-Helsingborg Offert', 
+    subjectflyttstad: 'Flyttstädning-Helsingborg Bokning',
     action: 'https://formspree.io/xlepjnol',
     method: 'POST',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
-    errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.'
+    errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.',
+   
   }
 
   state = {
     alert: '',
-    disabled: false
+    disabled: false,
+    type: 'offert'
   }
-
+  setType(type) {
+    console.log(type.target.value);
+    this.setState({type : type.target.value});
+    // this.state.type = type.target.value;
+    console.log(this.state.type);
+  }
   handleSubmit = e => {
     e.preventDefault()
     if (this.state.disabled) return
@@ -76,13 +84,115 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subject, action } = this.props
+    const { name, subjectoffert,subjectflyttstad, action } = this.props
 
     return (
       <Fragment>
         {/* <Helmet>
           {<script src="https://www.google.com/recaptcha/api.js" />}
         </Helmet> */}
+           <strong>Jag vill..</strong> { this.state.type }
+         <div onChange={this.setType.bind(this)}>
+       
+         <label class="Form--Label Form--Radio">
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="type"
+           value="offert"
+           defaultChecked
+           />
+           <span>Få offert</span>
+           </label>
+           <label class="Form--Label Form--Radio">
+           
+           <input 
+           className="Form--RadioInput"
+           type="radio"
+           name="type"
+           value="flyttstad"
+   
+         />
+           <span>Boka flyttstädning</span>
+           </label>
+         
+           </div>
+           {this.state.alert && (
+                  <div className="Form--Alert">{this.state.alert}</div>
+                )}
+           {/* OFFERT FORM BEGINS HERE */}
+           {this.state.type === 'offert' && !this.state.alert &&
+        <form
+          className="Form"
+          name={name}
+          action={action}
+          onSubmit={this.handleSubmit}
+         
+        >      
+       
+     <label className='Form--Label'>
+      <input
+        className='Form--Input  Form--InputText'
+        type='text'
+        placeholder='Namn (obligatoriskt)'
+        name='namn'
+        required
+      />
+       <span>Namn (obligatoriskt)</span>
+    </label>
+    <label className='Form--Label'>
+      <input
+        className='Form--Input Form--InputText'
+        type='email'
+        placeholder='E-post (obligatoriskt)'
+        name='epost'
+        required
+      />
+       <span>E-post (obligatoriskt)</span>
+    </label>
+    <label className='Form--Label'>
+      <input
+        className='Form--Input Form--InputText'
+        type='text'
+        placeholder='Ämne'
+        name='amne'
+        
+      />
+       <span>Ämne</span>
+    </label>
+    <label className='Form--Label'>
+      <textarea
+        className='Form--Input Form--Textarea Form--InputText'
+        placeholder='Övrig Info'
+        name='meddelande'
+        rows='10'
+     
+      />
+          <span>Meddelande</span>
+    </label>
+
+          {!!subjectoffert && <input type="hidden" name="subject" value={subjectoffert} />}
+          <input type="hidden" name="form-name" value={name} />
+         
+          <label class="Form--Shelf"><span>email</span>
+          <input autocomplete="off" className="Form--Shelf" type="email" name="email" value="" />
+          </label>
+         
+          <label class="Form--Shelf"><span>info</span>
+          <input autocomplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" value="" />
+          </label>
+          <input
+            className="Button Form--SubmitButton"
+            type="submit"
+            value="Skicka meddelande"
+            disabled={this.state.disabled}
+          />
+        </form>
+           }
+
+
+           {/* FLYTTSTÄD FORM BEGINS HERE */}
+           {this.state.type === 'flyttstad' && !this.state.alert && 
         <form
           className="Form"
           name={name}
@@ -93,29 +203,7 @@ class Form extends React.Component {
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
           )}
-        <strong>Jag vill..</strong>
-         <fieldset>
-           
-           <label class="Form--Label Form--Radio">
-           
-           <input 
-           className="Form--RadioInput"
-           type="radio"
-           name="typ"
-           value="flyttstad"
-         />
-           <span>Boka flyttstädning</span>
-           </label>
-           <label class="Form--Label Form--Radio">
-           <input 
-           className="Form--RadioInput"
-           type="radio"
-           name="typ"
-           value="offert"
-           />
-           <span>Få offert</span>
-           </label>
-           </fieldset>
+     
          <label className='Form--Label'>
       <input
         className='Form--Input  Form--InputText'
@@ -131,11 +219,11 @@ class Form extends React.Component {
       <input
         className='Form--Input Form--InputText'
         type='text'
-        placeholder='Adress'
+        placeholder='Adress (obligatoriskt)'
         name='adress'
-  
+        required
       />
-       <span>Adress</span>
+       <span>Adress (obligatoriskt)</span>
     </label>
  
 
@@ -154,9 +242,11 @@ class Form extends React.Component {
             <input
               className="Form--Input Form--InputText"
               type="text"
-              placeholder="Telefonnummer"
-              name="telefon"/>
-             <span>Telefonnummer</span>
+              placeholder="Telefonnummer (obligatoriskt)"
+              name="telefon"
+              required
+              />
+             <span>Telefonnummer (obligatoriskt)</span>
      </label>
 
      <label className="Form--Label">
@@ -182,23 +272,23 @@ class Form extends React.Component {
      </label>
      <label className="Form--Label">
             <input
-              className="Form--Input Form--InputText"
-              type="text"
-              placeholder="Datum för städning"
+              className="Form--Input"
+              type="date"
+              placeholder="Datum för städning  (obligatoriskt)"
               name="datum"
-             
+              required
             />
-             <span>Datum för städning</span>
+             <span className="Form--InputTextRdy">Datum för städning (obligatoriskt)</span>
      </label>
      <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
               type="text"
-              placeholder="Personnummer"
+              placeholder="Personnummer (obligatoriskt)"
               name="personnr"
-             
+              required
             />
-             <span>Personnummer</span>
+             <span>Personnummer (obligatoriskt)</span>
      </label>
      <label className="Form--Label">
             <input
@@ -222,7 +312,7 @@ class Form extends React.Component {
     </label>
          
           {/* <div className="g-recaptcha" data-sitekey="6Lf7gPwUAAAAAGD5RgY4pdjRMGn7n7ynDEBNNrdw"></div> */}
-          {!!subject && <input type="hidden" name="subject" value={subject} />}
+          {!!subjectflyttstad && <input type="hidden" name="subject" value={subjectflyttstad} />}
           <input type="hidden" name="form-name" value={name} />
          
           <label class="Form--Shelf"><span>email</span>
@@ -240,6 +330,8 @@ class Form extends React.Component {
             disabled={this.state.disabled}
           />
         </form>
+           }
+           {/* FLYTTSTÄD FORM ENDS HERE */}
       </Fragment>
     )
   }

@@ -53,7 +53,8 @@ export default ({ children, meta, title }) => {
           <Fragment>
             <Helmet
               defaultTitle={siteTitle}
-              titleTemplate={`%s | ${siteTitle}`}
+              titleTemplate={`%s`}
+              // titleTemplate={`%s | ${siteTitle}`}
             >
               {title}
               {/* <link href="https://ucarecdn.com" rel="preconnect" crossorigin /> */}
@@ -62,7 +63,7 @@ export default ({ children, meta, title }) => {
             </Helmet>
 
             <Meta
-              //googleTrackingId={googleTrackingId}
+              // googleTrackingId={googleTrackingId}
               absoluteImageUrl={
                 socialMediaCard &&
                 socialMediaCard.image &&

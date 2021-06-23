@@ -58,7 +58,14 @@
   transition: 0.3s ease all;
   background: transparent;
 }
+.Form--InputTextRdy {
+  top: 0!important;
+  left: 0.5rem!important;
+  font-size: 1.2rem;
+  
+}
 
+/* .Form--InputTextRdy, */
 .Form--InputText:valid,
 .Form--InputText:invalid:not(:empty),
 .Form--InputText:active,
@@ -66,7 +73,7 @@
   padding-bottom: 0.5rem;
   padding-top: 2.5rem;
 }
-
+/* .Form--InputTextRdy, */
 .Form--InputText:valid + span,
 .Form--InputText:not(:empty) + span,
 .Form--InputText:invalid:not(:empty) + span,

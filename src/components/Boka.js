@@ -114,11 +114,21 @@ class Form extends React.Component {
       />
        <span>Adress</span>
     </label>
+    <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="text"
+              placeholder="Personnummer"
+              name="personnr"
+              required
+            />
+             <span>Personnummer</span>
+     </label>
     <label className='Form--Label'>
       <input
         className='Form--Input Form--InputText'
         type='email'
-        placeholder='E-post (obligatoriskt)'
+        placeholder='E-post'
         name='epost'
         required
       />
@@ -133,6 +143,26 @@ class Form extends React.Component {
               required
               />
              <span>Telefonnummer</span>
+     </label>
+     <label className="Form--Label ">
+            <input
+              className="Form--Input  "
+              type="date"
+              placeholder="Datum för städning"
+              name="datum"
+              required
+            />
+             <span className="Form--InputTextRdy" >Datum för städning</span>
+     </label>
+     <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="text"
+              placeholder="Övriga Städytor / Övrig Info"
+              name="ovrigt"
+              
+              />
+             <span>Övriga Städytor / Övrig Info (Ej obligatorisk)</span>
      </label>
      <div >
          <fieldset>
@@ -250,7 +280,7 @@ class Form extends React.Component {
            </div>
 
          
-          {/* <div className="g-recaptcha" data-sitekey="6Lf7gPwUAAAAAGD5RgY4pdjRMGn7n7ynDEBNNrdw"></div> */}
+        
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <label class="Form--Shelf"><span>email</span>
@@ -260,8 +290,7 @@ class Form extends React.Component {
           <label class="Form--Shelf"><span>info</span>
           <input autocomplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" value="" />
           </label>
-          {/* <input type="hidden" name="g-recaptcha-response" value="03AGdBq243iwZDwtDv5bMf9SnXeAJgalEo4t6Xpt3OLcB4d6eKsPBLlD1SxwojGFcAYUB94azmSe_u80YGfRO8eCX0HzqIGObQiOJvvq-g7fZNBeumBbvYRwQZK6w0yv4gu4XtRr11FafqPKqMHbFp3ws6JJF7KG5WpJWQsNekABJlovgjknLKJbt8CLUzsmrTD1VRow_8MdgRLpmddgqhPqN2ROWrxm0tz3r76bj2XArISv2TBpXfVBMorA_Jy3EHGENihCria4k1hrI4ejWgGsZZyagqVR6M3jYsc6DCNI9IIKJd3sy0ZgpI0TdRM-kaQaWHBnFZ6iHCz0UP6OO2FtmcOe2t9zOU9zLKUpY6m3rIoR6QQgGie2-TWccgIE4huVkpAkfi1d6baSwXRNB3zmJCIcBm3J9KyBdxggKFLm3PVoJOSkhZ5idH6lcosjv6sRlTgHbx533k-5CThYg3AtVxXL6PNPmOzaJgUsNpqEqIBCOMTTJKf4Y" ></input> */}
-          <input
+         <input
             className="Button Form--SubmitButton"
             type="submit"
             value="Boka nu"
