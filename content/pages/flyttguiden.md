@@ -7,5 +7,5 @@ subtitle: Här kan du hitta matnyttig information till din flytt.
 meta:
   description: Här kan du hitta matnyttig information till din flytt.
   title:  Flyttguiden | Flyttstädning Helsingborg
-  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/flyttguiden
+  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/flyttguiden/
 ---

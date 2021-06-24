@@ -8,7 +8,7 @@ subtitle:
 meta:
   description: Detta ingår i flyttstädningen hos flyttstädning Helsingborg
   title: Detta ingår i flyttstädningen | Flyttstädning Helsingborg
-  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/detta-ingar-i-flyttstadningen
+  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/detta-ingar-i-flyttstadningen/
 ---
 
 ## I vår flyttstädning ingår följande tjänster:

@@ -14,7 +14,7 @@ locations:
 meta:
   description: Boka flyttstädning eller få ett pris?
   title: Boka / Få pris | Flyttstädning Helsingborg
-  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/kontakt
+  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/kontakt/
 ---
 
 ##  Boka flyttstädning eller få ett pris?
