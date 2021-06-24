@@ -10,6 +10,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'se'
+      }
+    },
+    {
       resolve: 'gatsby-plugin-offline',
       options: {
         runtimeCaching: [
@@ -39,8 +45,8 @@ module.exports = {
       options: {
         RewriteBase: '/',
         redirect: [
-          'RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]',
-        //  'Redirect 301 /feed /rss.xml',
+          // 'RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]',
+       'Redirect 301 /feed /rss.xml',
         //  'Redirect 301 /feed/ /rss.xml',
         ],
       
