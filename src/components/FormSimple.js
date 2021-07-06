@@ -5,7 +5,7 @@ import './Form.css'
 export default ({
   name = 'Simple Form',
   subject = 'Offert/Förfrågan', // optional subject of the notification email
-  action = 'https://formspree.io/xlepjnol'
+  action = 'https://formspree.io/f/xrgrldjd'
 }) => (
   <form
     className='Form'

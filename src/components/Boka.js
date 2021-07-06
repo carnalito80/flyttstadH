@@ -9,7 +9,7 @@ class Form extends React.Component {
   static defaultProps = {
     name: 'Flyttstädning-Helsingborg',
     subject: 'Flyttstädning-Helsingborg', // optional subject of the notification email
-    action: 'https://formspree.io/xlepjnol',
+    action: 'https://formspree.io/f/xrgrldjd',
     method: 'POST',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
     errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.'

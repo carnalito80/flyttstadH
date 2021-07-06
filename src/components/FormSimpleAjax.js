@@ -10,7 +10,7 @@ class Form extends React.Component {
     name: 'Flyttstädning-Helsingborg',
     subjectoffert: 'Flyttstädning-Helsingborg Offert', 
     subjectflyttstad: 'Flyttstädning-Helsingborg Bokning',
-    action: 'https://formspree.io/xlepjnol',
+    action: 'https://formspree.io/f/xrgrldjd',
     method: 'POST',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
     errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.',
@@ -33,14 +33,14 @@ class Form extends React.Component {
     if (this.state.disabled) return
     const form = e.target
     const data = serialize(form)
-    if (data.info != '') {
+    if (data.info !== '') {
       this.setState({
         alert: "Informationen skickad. Tack!",
         disabled: true
       })
         return
     }
-    if (data.email != '') {
+    if (data.email !== '') {
       this.setState({
         alert: "Informationen inte skickad. Tack!",
         disabled: true
@@ -117,18 +117,18 @@ class Form extends React.Component {
            </label>
          
            </div>
-           {this.state.alert && (
-                  <div className="Form--Alert">{this.state.alert}</div>
-                )}
-           {/* OFFERT FORM BEGINS HERE */}
-           {this.state.type === 'offert' && !this.state.alert &&
-        <form
-          className="Form"
-          name={name}
-          action={action}
-          onSubmit={this.handleSubmit}
-         
-        >      
+  {this.state.alert && (
+        <div className="Form--Alert">{this.state.alert}</div>
+      )}
+    {/* OFFERT FORM BEGINS HERE */}
+    {this.state.type === 'offert' && !this.state.alert &&
+    <form
+      className="Form"
+      name={name}
+      action={action}
+      onSubmit={this.handleSubmit}
+      
+    >      
        
      <label className='Form--Label'>
       <input
