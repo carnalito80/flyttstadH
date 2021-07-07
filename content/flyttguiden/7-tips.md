@@ -5,7 +5,7 @@ status: Published
 date: '2021-06-13'
 categories:
   - category: Flyttstädning
-featuredImage: '/images/flytt.jpg'
+featuredImage: '../images/flytt.jpg'
 excerpt: >-
  Det är mycket att tänka på före en flytt. Ofta kan det bli stressigt och det är lätt att glömma bort viktiga saker. Vi hjälper dig att planera din flytt genom denna enkla checklista.
 meta:
