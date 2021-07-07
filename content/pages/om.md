@@ -6,7 +6,7 @@ featuredImage: '../images/flyttstadning.jpg'
 meta:
   description: Vår städfirma Flyttstädning Helsingborg består av ett antal personer som alla har lång erfarenhet av flyttstädning. Vi är punktliga. Vi utför alla uppdrag inom begärd tid. Vi är drogfria, skötsamma och självklart även hederliga. Självklart har vi F-skattsedel och är försäkrade vid Länsförsäkringar för eventuella skador hos kund på upp till tio miljoner kronor.
   title: Om oss
-  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/om-oss-pa-flyttstadning-helsingborg/
+  canonicalLink: https://xn--flyttstdning-helsingborg-wbc.nu/om-oss-pa-flyttstadning-helsingborg/
 
 ---
 Vår **städfirma Flyttstädning Helsingborg** består av ett antal personer som alla har lång erfarenhet av flyttstädning. Vi är punktliga. Vi utför alla uppdrag inom begärd tid. Vi är drogfria, skötsamma och självklart även hederliga.

@@ -12,9 +12,9 @@ locations:
     lng: '12.41'
     mapLink: ''
 meta:
-  description: Boka flyttstädning eller få ett pris?
+  description: Boka flyttstädning eller få en offert eller pris. Använd vårat enkla formulär, eller kontakta oss via telefon.
   title: Boka / Få pris | Flyttstädning Helsingborg
-  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/kontakt/
+  canonicalLink: https://xn--flyttstdning-helsingborg-wbc.nu/kontakt/
 ---
 
 ##  Boka flyttstädning eller få ett pris?

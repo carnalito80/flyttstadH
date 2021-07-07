@@ -6,9 +6,9 @@ featuredImage: '../images/flyttstadning.jpg'
 offertknapp: 'Begär offert'
 subtitle:
 meta:
-  description: Detta ingår i flyttstädningen hos flyttstädning Helsingborg
+  description: Här får du information om allt som ingår när du anlitar Flyttstädning Helsingborg. En lättläst lista.
   title: Detta ingår i flyttstädningen | Flyttstädning Helsingborg
-  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/detta-ingar-i-flyttstadningen/
+  canonicalLink: https://xn--flyttstdning-helsingborg-wbc.nu/detta-ingar-i-flyttstadningen/
 ---
 
 ## I vår flyttstädning ingår följande tjänster:

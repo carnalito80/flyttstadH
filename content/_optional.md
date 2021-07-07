@@ -1,6 +1,6 @@
 ---
 meta:
-  canonicalLink: 'https://www.xn--flyttstdning-helsingborg-wbc.nu/'
+  canonicalLink: 'https://xn--flyttstdning-helsingborg-wbc.nu/'
   description:  'Välkommen till flyttstädning Helsingborg -en pålitlig städfirma med personal du kan lita på.'
   noindex: false
   title: 'Flyttstädning Helsingborg'

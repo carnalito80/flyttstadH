@@ -5,7 +5,7 @@ title: Flyttguiden
 featuredImage: '../images/bra-flyttstadning.jpg'
 subtitle: Här kan du hitta matnyttig information till din flytt.
 meta:
-  description: Här kan du hitta matnyttig information till din flytt.
+  description: Här kan du hitta matnyttig information till din flytt i form av olika guider och tips. Kontakta oss vid frågor!
   title:  Flyttguiden | Flyttstädning Helsingborg
-  canonicalLink: https://www.xn--flyttstdning-helsingborg-wbc.nu/flyttguiden/
+  canonicalLink: https://xn--flyttstdning-helsingborg-wbc.nu/flyttguiden/
 ---
