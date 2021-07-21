@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 offertknapp: 'Boka din städning online'
-title: Flyttstädning Helsingborg -Boka städfirma online idag 🧹
+title: Flyttstädning Helsingborg -Boka städfirma online idag
 featuredImage: 'https://xn--flyttstdning-helsingborg-wbc.nu/images/flyttstadning-helsingborg.webp'
 subtitle: '-en pålitlig städfirma med personal du kan lita på.'
 meta:
