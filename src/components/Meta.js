@@ -32,7 +32,7 @@ export default class Meta extends Component {
 
     return (
       <Helmet>
-        {title && <title>{title}</title>}
+        {/* {title && <title>{title}</title>} */}
         {title && <meta property="og:title" content={title} />}
         {description && <meta name="description" content={description} />}
         {description && <meta property="og:description" content={description} />}
