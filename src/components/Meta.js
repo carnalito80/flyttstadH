@@ -39,17 +39,12 @@ export default class Meta extends Component {
         {canonicalLink && <meta property="og:type" content="website" />}
         {canonicalLink && <meta property="og:url" content={canonicalLink} />}
         {canonicalLink && <meta name="twitter:site" content={canonicalLink} />}
-        {/* {twitterCreatorAccount && (
-          <meta name="twitter:creator" content={twitterCreatorAccount} />
-        )} */}
-       
         {canonicalLink && <link rel="canonical" href={canonicalLink} />}
 
         <meta property="og:locale" content="sv_SE" />
         <meta property="og:site_name" content={siteTitle} />
         {description && <meta property="twitter:description" content={description} />}
-        {/* <meta name="twitter:description" content={siteDescription} /> */}
-        {/* <meta name="twitter:title" content={siteTitle} /> */}
+        
         {title && <meta property="twitter:title" content={title} />}
         <meta name="twitter:image" content={absoluteImageUrl} />
         <meta property="og:image:secure_url" content={absoluteImageUrl} />
