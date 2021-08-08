@@ -10,7 +10,7 @@ export default () => (
          <div className="container">
          <div className="Paratitle">
             <strong>Priser flyttstädning Helsingborg</strong>
-            <p className="Paradesc"><strong>Från 1400 kr</strong><br></br>
+            <p className="Paradesc"><strong>Från 1200 kr</strong><br></br>
                 Vi tillämpar följande prissättning på flyttstädning Helsingborg.
                 samtliga priser är inklusive 25% moms och efter 50% rutavdrag </p>
           </div>
