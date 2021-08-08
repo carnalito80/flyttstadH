@@ -17,7 +17,7 @@ export default () => (
           <ul>        
           
             <li> <span className="Left">0 - 49 kvm </span><span className="Separator"></span>
-            <span className="Right">1400 kronor</span></li>
+            <span className="Right">1200 kronor</span></li>
             <li> 50 - 59 kvm<span className="Separator"></span>
             1400 kronor</li>
             <li> 60 - 69 kvm<span className="Separator"></span>
