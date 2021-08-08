@@ -174,6 +174,7 @@ class Form extends React.Component {
            type="radio"
            name="kvadrat"
            value="49"
+           required
          />
            <span>0-49 kvm</span>
            </label>
