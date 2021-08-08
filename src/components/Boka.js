@@ -27,14 +27,14 @@ class Form extends React.Component {
     const data = serialize(form)
     if (data.info !== '') {
       this.setState({
-        alert: "Informationen skickad. Tack!",
+        alert: "Informationen inte skickad (I). Tack!",
         disabled: true
       })
         return
     }
     if (data.email !== '') {
       this.setState({
-        alert: "Informationen inte skickad. Tack!",
+        alert: "Informationen inte skickad (E). Tack!",
         disabled: true
       })
         return
