@@ -174,12 +174,12 @@ class Form extends React.Component {
           {!!subjectoffert && <input type="hidden" name="subject" value={subjectoffert} />}
           <input type="hidden" name="form-name" value={name} />
          
-          <label class="Form--Shelf"><span>email</span>
-          <input autocomplete="off" className="Form--Shelf" type="email" name="email" value="" />
+          <label className="Form--Shelf"><span>email</span>
+          <input autoComplete="off" className="Form--Shelf" type="email" name="email" value="" />
           </label>
          
-          <label class="Form--Shelf"><span>info</span>
-          <input autocomplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" value="" />
+          <label className="Form--Shelf"><span>info</span>
+          <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" value="" />
           </label>
           <input
             className="Button Form--SubmitButton"
@@ -316,11 +316,11 @@ class Form extends React.Component {
           <input type="hidden" name="form-name" value={name} />
          
           <label class="Form--Shelf"><span>email</span>
-          <input autocomplete="off" className="Form--Shelf" type="email" name="email" value="" />
+          <input autoComplete="off" className="Form--Shelf" type="email" name="email" value="" />
           </label>
          
           <label class="Form--Shelf"><span>info</span>
-          <input autocomplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" value="" />
+          <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" value="" />
           </label>
           {/* <input type="hidden" name="g-recaptcha-response" value="03AGdBq243iwZDwtDv5bMf9SnXeAJgalEo4t6Xpt3OLcB4d6eKsPBLlD1SxwojGFcAYUB94azmSe_u80YGfRO8eCX0HzqIGObQiOJvvq-g7fZNBeumBbvYRwQZK6w0yv4gu4XtRr11FafqPKqMHbFp3ws6JJF7KG5WpJWQsNekABJlovgjknLKJbt8CLUzsmrTD1VRow_8MdgRLpmddgqhPqN2ROWrxm0tz3r76bj2XArISv2TBpXfVBMorA_Jy3EHGENihCria4k1hrI4ejWgGsZZyagqVR6M3jYsc6DCNI9IIKJd3sy0ZgpI0TdRM-kaQaWHBnFZ6iHCz0UP6OO2FtmcOe2t9zOU9zLKUpY6m3rIoR6QQgGie2-TWccgIE4huVkpAkfi1d6baSwXRNB3zmJCIcBm3J9KyBdxggKFLm3PVoJOSkhZ5idH6lcosjv6sRlTgHbx533k-5CThYg3AtVxXL6PNPmOzaJgUsNpqEqIBCOMTTJKf4Y" ></input> */}
           <input

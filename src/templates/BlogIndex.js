@@ -85,6 +85,7 @@ export const BlogIndexTemplate = ({
               </div>
             </section>
           )}
+          <br></br>
         </main>
       )
     }}
