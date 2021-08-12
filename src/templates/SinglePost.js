@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import _get from 'lodash/get'
 import { Link, graphql } from 'gatsby'
-import { ChevronLeft } from 'react-feather'
+// import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
@@ -22,8 +22,12 @@ export const SinglePostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/flyttguiden/">
-          <ChevronLeft /> TILLBAKA
+        <Link 
+        
+        className="SinglePost--Pagination--Link prev"
+        // className="SinglePost--BackButton" 
+        to="/flyttguiden/">
+         ← TILLBAKA TIL FLYTTGUIDEN
         </Link>
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">
@@ -38,7 +42,7 @@ export const SinglePostTemplate = ({
             )}
             {categories && (
               <Fragment>
-                <span>|</span>
+                {/* <span>|</span> */}
                 {categories.map((cat, index) => (
                   <span
                     key={cat.category}
@@ -122,7 +126,7 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        date(formatString: "MMMM Do, YYYY")
+        date(formatString: "Do MMMM, YYYY", locale: "sv-SE")
         categories {
           category
         }
