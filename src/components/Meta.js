@@ -64,7 +64,7 @@ export default class Meta extends Component {
         }
         `}
         </script>
-        <script type="application/ld+json">{`
+        {/* <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
@@ -102,7 +102,7 @@ export default class Meta extends Component {
               "closes": "18:00"
             } 
           }
-        `}</script>
+        `}</script> */}
        {googleTrackingId && (
           <script
             async
