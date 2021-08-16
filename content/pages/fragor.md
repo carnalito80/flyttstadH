@@ -4,14 +4,14 @@ slug: vanliga-fragor
 title: Vanliga Frågor
 featuredImage: '../images/flyttstadning-helsingborg.webp'
 meta:
-  description: Vi har en garanti på 3 dagar och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister. 
+  description: Vi har en garanti på 14 dagar och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister. 
   title: Vanliga Frågor | Flyttstädning Helsingborg
   canonicalLink: https://xn--flyttstdning-helsingborg-wbc.nu/vanliga-fragor/
 
 ---
 
 #### Besiktning och garanti
-Vi har en garanti på **3 dagar** och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. **Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister.** Därför är det bra om ni (eller hyresvärd / köpare) är med vid ombesiktningen och går igenom städningen med oss. Och vi åtgärdar enbart de brister som påpekades vid den första besiktningen.
+Vi har en garanti på **14 dagar** och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. **Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister.** Därför är det bra om ni (eller hyresvärd / köpare) är med vid ombesiktningen och går igenom städningen med oss. Och vi åtgärdar enbart de brister som påpekades vid den första besiktningen.
 
 ***Förbehåll***  
 
