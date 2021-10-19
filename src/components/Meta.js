@@ -51,6 +51,11 @@ export default class Meta extends Component {
         <meta property="og:image:secure_url" content={absoluteImageUrl} />
         <meta property="og:image" content={absoluteImageUrl} />
         <meta name="twitter:card" content="summary" />
+        <meta name="geo.region" content="SE" /> 
+        <meta name="geo.placename" content="Helsingborg" />
+        <meta name="geo.position" content="56.046648;12.690774" />
+        <meta name="ICBM" content="56.046648, 12.690774" />
+
         <meta name="google-site-verification" content="pOGe1T83kU7OVdDrqaYmK22Y-GGcWBOVH1ayh978AAM" />
 
         <script type="application/ld+json">{`
