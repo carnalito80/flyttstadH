@@ -28,8 +28,11 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
     <section className="section">
       <div className="container introjk">
         <h3 >Är du i behov av en städfirma?</h3>
-        <p>“vi på flyttstädning Helsingborg är en pålitlig städfirma, med personal som du kan lita på”<br></br>
-        <strong>Gör som flera andra och boka flyttstädning Helsingborg redan idag</strong>
+       <p> Fyttstädning Helsingborg -en pålitlig städfirma med personal du kan lita på ✔️.<br />
+          Vi erbjuder fasta priser och städgaranti ✔️. <br />
+      <strong>Boka oss eller begär en offert enkelt online ✔️.</strong>
+        {/* <p>“vi på flyttstädning Helsingborg är en pålitlig städfirma, med personal som du kan lita på”<br></br>
+        <strong>Gör som flera andra och boka flyttstädning Helsingborg redan idag</strong> */}
         </p>
         <div  onClick={() => scrollTo('#priser')} className="Button">Priser</div>
       </div>
@@ -150,7 +153,7 @@ Flyttstädning Helsingborg har lång erfarenhet av flyttstädningar, vi garanter
     <div className="PostSection">
       <div className="PostSection--GridJK">
       <div>
-     <h3>Flyttstädning Helsingborg Garanti</h3>
+     <h3>Garanti</h3>
 
 <p>Vi på flyttstädning Helsingborg lämnar alltid garanti på våra flyttstädningar. Garantin gäller för både köparen och säljaren av bostaden.<br></br>
 
