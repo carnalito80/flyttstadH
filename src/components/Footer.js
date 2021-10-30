@@ -40,7 +40,7 @@ export default () => (
               </a>
           
          
-              <a className="Contact--Details--Item" href="mailto:info@flyttstädning-helsingborg.nu">
+              <a className="Contact--Details--Item" href="mailto:info@xn--flyttstdning-helsingborg-wbc.nu">
                 <Mail /> info@flyttstädning-helsingborg.nu
               </a>
               <a className="Contact--Details--Item" href="">

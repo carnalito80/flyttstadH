@@ -20,6 +20,7 @@ export const ContactPageTemplate = ({
   address,
   phone,
   email,
+  emailadr = "info@xn--flyttstdning-helsingborg-wbc.nu", //hard coded as fix for öäå
   locations
 }) => (
   <main className="Contact">
@@ -51,7 +52,7 @@ export const ContactPageTemplate = ({
               </a>
             )}
             {email && (
-              <a className="Contact--Details--Item" href={`mailto:${email}`}>
+              <a className="Contact--Details--Item" href={`mailto:${emailadr}`}>
                 <Mail /> {email}
               </a>
             )}

@@ -17,7 +17,7 @@ Vi eftersträvar att hålla en så god kvalité som möjlighet på städningen. 
 
 #### Info
 Flyttstädning Helsingborg  
-Epost: <a href="mailto:info@flyttstädning-helsingborg.nu">info@flyttstädning-helsingborg.nu</a>  
+Epost: <a href="mailto:info@xn--flyttstdning-helsingborg-wbc.nu">info@flyttstädning-helsingborg.nu</a>  
 Tel: <a href="tel:073 637 99 08">073 637 99 08</a>  
 Badhusgatan 2, 25221 Helsingborg  
 Orgnr 556930-5146  
