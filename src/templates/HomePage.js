@@ -100,7 +100,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
         <li className="bullet-jk">Rengöring av fönsterkarmar.</li>
         <li className="bullet-jk">.. och mer!</li>
       </ul>
-      <Link to="/detta-ingar-i-flyttstadningen/"><div className="Button">Läs mer som ingår</div></Link>
+      <Link to="/detta-ingar-i-flyttstadningen/"><div className="Button">Läs mer om vad som ingår</div></Link>
       </div>
          
       </div>
