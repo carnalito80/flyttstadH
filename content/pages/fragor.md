@@ -11,14 +11,14 @@ meta:
 ---
 
 #### Besiktning och garanti
-Vi har en garanti på **14 dagar** och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. **Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister.** Därför är det bra om ni (eller hyresvärd / köpare) är med vid ombesiktningen och går igenom städningen med oss. Och vi åtgärdar enbart de brister som påpekades vid den första besiktningen.
+Vi har en garanti på **14 dagar** och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem så snart som möjligt utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. **Observera att vi endast kommer 1 gång och åtgärdar eventuella brister.** Därför är det bra om ni (eller hyresvärd / köpare) är med vid ombesiktningen och går igenom städningen med oss. Och vi åtgärdar enbart de brister som påpekades vid den första besiktningen.
 
 ***Förbehåll***  
 
 Om vi blir förhindrade att utföra flyttstädningen på avtalad tid av
-orsaker som t ex. att du inte tillser att städobjektet är upplåst / tillgängligt eller att möbler inte är utflyttade, kan merkostnad tillkomma.
+orsaker som t ex. att du inte tillser att städobjektet är upplåst, tillgängligt eller att möbler inte är utflyttade, kan merkostnad tillkomma.
 
-Om vår uppfattning av städobjektets skick (ex onormalt nersmutsad) är annorlunda än din, kommer vi att kontakta dig före städningen för att komma överens om ett nytt, korrekt pris.
+Om vår uppfattning av städobjektets skick (ex onormalt nersmutsad) är annorlunda än din, kommer vi att kontakta dig före städningen för att komma överens om ett nytt pris som återspeglar detta.
 
 Om vår ansökan om skattereduktion avslås förbehåller vi oss rätten att debitera dig fakturans totalbelopp inklusive moms.
 
@@ -37,7 +37,7 @@ Material- och resekostnader i samband med husarbetet ger inte rätt till skatter
 
 #### Hur fungerar det i praktiken? Behöver jag ligga ute med egna pengar eller fylla i ansökningar till Skatteverket?
 
-Svaret är ett enkelt: NEJ!
+Svaret är: NEJ!
 
 ***Vi drar rabatten direkt*** på fakturan eller kvittot och när vi fått betalt från dig ansöker vi om resterande del av arbetskostnaden från Skatteverket. För detta arbete tar vi ut en administrationsavgift på endast 25 kronor per kund.
 

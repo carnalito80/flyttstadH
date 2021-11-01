@@ -62,7 +62,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
       <div className="PostCard--Content">
       <h3 className="PostCard--Title">PÅLITLIG PERSONAL</h3>
         
-        <div className="PostCard--Excerpt"><em>Ni är trygga med oss, gör som 100-tals andra och boka oss idag.</em></div>
+        <div className="PostCard--Excerpt"><em>Ni är trygga med oss, gör som 100:tals andra och boka oss idag.</em></div>
       </div>
       </Link>
       <Link to="/vanliga-fragor" className="PostCard">
@@ -100,7 +100,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
         <li className="bullet-jk">Rengöring av fönsterkarmar.</li>
         <li className="bullet-jk">.. och mer!</li>
       </ul>
-      <Link to="/detta-ingar-i-flyttstadningen/"><div className="Button">Mer som ingår</div></Link>
+      <Link to="/detta-ingar-i-flyttstadningen/"><div className="Button">Läs mer som ingår</div></Link>
       </div>
          
       </div>
@@ -114,9 +114,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
       <div>
      <h3>Flyttstädning Helsingborg</h3>
 
-<p>Går du tankar i att flytta? Att flytta kan vara både spännande stressande och väldigt omtumlande. Vi på flyttstädning Helsingborg hjälper er gärna med den stressiga och jobbiga biten.<br></br><br></br>
+<p>Går du tankar i att flytta? Att flytta kan vara både spännande stressande och väldigt omständigt. Vi på flyttstädning Helsingborg hjälper er gärna med den stressiga och jobbiga biten.<br></br><br></br>
 
-Ni kan istället fokusera på det roliga bitarna och göra ert framtida hem till ett personligt och vackert hem.<br></br><br></br>
+Så kan ni kan istället fokusera på det roliga bitarna och göra ert framtida hem till ett personligt och vackert hem.<br></br><br></br>
 
 När ni anlitar flyttstädning Helsingborg, så är det väldigt mycket som ingår. Ni kan självklart utnyttja RUT-avdraget. 
 Flyttstädning Helsingborg har lång erfarenhet av flyttstädningar, vi garanterar ett rent hem för de nya bostadsägarna
@@ -139,7 +139,7 @@ Flyttstädning Helsingborg har lång erfarenhet av flyttstädningar, vi garanter
      <p>Livet är fyllt av jobbiga och stressiga moment. Stress för också med sig onödiga saker såsom tjafs och bråk med dina närstående. Att städa boendet inför en flytt kan vara en sådan sak.</p>
      <p>Varför inte slippa den onödiga stressen och ge flyttstädning Helsingborg fullt ansvar över städningen?</p>
 
-     <p>Att städa tar lång tid och för att det nya ägarna av bostaden ska bli nöjda och glada, så kan det vara bra att ge över ansvaret till några som har lång erfarenhet av att göra kunder nöjda och glada.</p>
+     <p>Att städa tar lång tid och för att det nya ägarna av bostaden ska bli nöjda och glada, så kan det vara bra att ge över ansvaret till några som har lång erfarenhet för att bästa resultat ska uppnås.</p>
 
      <p><strong>Anlita flyttstädning Helsingborg idag!</strong></p>
       </div>
@@ -157,7 +157,7 @@ Flyttstädning Helsingborg har lång erfarenhet av flyttstädningar, vi garanter
 
 <p>Vi på flyttstädning Helsingborg lämnar alltid garanti på våra flyttstädningar. Garantin gäller för både köparen och säljaren av bostaden.<br></br>
 
-Vissa saker måste ni som kund se till att ordna innan flyttstädningen:</p>
+Vissa saker måste ni som kund dock se till att ordna innan flyttstädningen:</p>
 <ul>
 <li>Tillgång till vatten</li>
 <li>Tillgång till el</li>

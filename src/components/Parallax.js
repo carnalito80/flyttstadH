@@ -11,7 +11,7 @@ export default () => (
          <div className="Paratitle">
             <strong>Priser flyttstädning Helsingborg</strong>
             <p className="Paradesc"><strong>Från 1200 kr</strong><br></br>
-                Vi tillämpar följande prissättning på flyttstädning Helsingborg.
+                Vi tillämpar följande prissättning för flyttstädning Helsingborg.
                 samtliga priser är inklusive 25% moms och efter 50% rutavdrag </p>
           </div>
           <ul>        
@@ -43,9 +43,9 @@ export default () => (
             begär offert</li>
         </ul>
         <div className="Paratitle">
-        <p className="Paradesc">Adminavgift tillkommer med 25 kronor.<br></br>
+        <p className="Paradesc">Administrativ avgift på 25 kronor tillkommer.<br></br>
        
-        Dessa punkter debiteras extra:<br></br>
+        Notera att dessa punkter debiteras extra:<br></br>
 
         Balkong: 300 kronor<br></br>
         Inglasad balkong: 400 kronor<br></br>

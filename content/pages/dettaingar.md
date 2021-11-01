@@ -18,11 +18,11 @@ meta:
 - Dammsugning och våttorkning av golv
 - Damning av väggar vid behov. Fläckar tas bort om det inte finns risk att tapeten skadas.
 - Lister, eluttag, strömbrytare torkas av
+- Element rengörs på och bakom (vi skruvar dock ej av elementen)
 - Dörrkarmar, dörrhandtag, trösklar och dörrar torkas av
 - Fönsterputsning, in- och utvändigt. 
 - Rengöring av fönsterkarmar
 - Avtorkning av garderober och skåp – och in- och utvändigt (samt ovanpå)
-- Element rengörs på och bakom (vi skruvar ej av elementen)
 - Fast belysning torkas av
 
 ##### Kök
@@ -30,8 +30,8 @@ meta:
 - Rengöring av spis in- och utvändigt samt bakom. Galler och plåtar diskas. *Om ni har en ugn som har pyrolysemalj inuti så vill vi att ni informerar om detta vid bokning.* Detta eftersom man ej kan använda vanlig ungsrengöring utan måste använda specialmedel.
 - Rengöring av kyl och frys in- och utvändigt. Även bakom dessa.
 - Köksfläkt och kåpa rengörs, filter diskas
-- Diskbänk, vask och arbetsbänkar rengörs
-- Diskmaskin rengörs in- och utvändigt, filter rensas. Om ni önskar städning bakom diskmaksin, måste denna vara framdragen innan.
+- Vask, diskbänk, och arbetsbänkar rengörs
+- Diskmaskin rengörs in- och utvändigt, filter rensas. Om ni önskar städning bakom diskmaskin, måste denna vara framdragen innan.
 - Skåpluckor torkas av, skåp och lådor torkas ur in- och utvändigt
 - Kakelväggar torkas av
 
@@ -40,8 +40,8 @@ meta:
 - Tvättställ rengörs på alla sidor
 - Badrumsskåp rengörs in- och utvändigt samt ovanpå
 - Alla synliga rör torkas av
-- Toalettstol rengörs in- och utvändigt, samt kalkas av vid behov
 - Golvbrunn rensas
+- Toalettstol rengörs in- och utvändigt, samt kalkas av vid behov
 - Rengöring av hela golvet
 - Rengöring av badkar / dusch på utsidan och insidan samt under
 - Kakelväggar tvättas av
@@ -58,7 +58,6 @@ meta:
 
 Vi rengör inte bakom tunga maskiner såsom diskmaskin, tvättmaskin eller torktumlare p g a risk för skador på golv, maskiner, slangar eller dylikt.
 
- 
 Vi drar inte fram kyl/frys och spis om det finns risk att vi gör märken på känsliga golv. Om ni vill ha rengjort bakom och under på dessa ytor kan vi hjälpa er med att dra ut dem men vi tar inte ansvar för möjliga skador i sådana fall.
  
 Vi ser gärna att ni monterar bort badkarsfronten (om möjligt) så att vi kommer åt att rengöra under/ bakom badkar. Vi ser även gärna att ni monterar bort skyddsglas till ugnen om denna skall diskas.
