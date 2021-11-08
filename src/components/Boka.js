@@ -8,8 +8,9 @@ import './Form.css'
 class Form extends React.Component {
   static defaultProps = {
     name: 'Flyttstädning-Helsingborg',
-    subject: 'Flyttstädning-Helsingborg', // optional subject of the notification email
-    action: 'https://formspree.io/f/xrgrldjd',
+    subject: 'Flyttstädning-Helsingborg Bokning', // optional subject of the notification email
+    action: 'https://formspree.io/f/xrgrldjd', //prod
+    // action: 'https://formspree.io/f/xlepjnol', //test
     method: 'POST',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
     errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.'
@@ -25,20 +26,25 @@ class Form extends React.Component {
     if (this.state.disabled) return
     const form = e.target
     const data = serialize(form)
-    if (data.info !== '') {
+    if (data.infon !== '') {
       this.setState({
         alert: "Informationen inte skickad (I). Tack!",
         disabled: true
       })
         return
     }
-    if (data.email !== '') {
+    if (data.matrix !== '') {
       this.setState({
         alert: "Informationen inte skickad (E). Tack!",
         disabled: true
       })
         return
     }
+
+    delete data.matrix;
+    delete data.infon;
+    data._replyto = data.email;
+
     this.setState({ disabled: true })
     fetch(form.action, {
       method: 'POST',
@@ -129,7 +135,7 @@ class Form extends React.Component {
         className='Form--Input Form--InputText'
         type='email'
         placeholder='E-post'
-        name='epost'
+        name='email'
         required
       />
        <span>E-post</span>
@@ -285,11 +291,11 @@ class Form extends React.Component {
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <label class="Form--Shelf"><span>email</span>
-          <input autocomplete="off" className="Form--Shelf" type="email" name="email" value="" />
+          <input autocomplete="off" className="Form--Shelf" type="text" name="matrix" placeholder="your matrix" defaultValue=""  />
           </label>
        
           <label class="Form--Shelf"><span>info</span>
-          <input autocomplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" value="" />
+          <input autocomplete="off" className="Form--Shelf" type="text"type="text" name="infon" placeholder="your info" defaultValue="" />
           </label>
          <input
             className="Button Form--SubmitButton"
