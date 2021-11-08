@@ -1,8 +1,13 @@
 .Contact {
 }
 
+.jk--hide {
+  display: none; /* hidden by default */
+
+}
 .Contact--Details {
-  margin-top: 3rem;
+     
+    /* margin-top: 3rem; */
 }
 
 .Contact--Details--Item {
@@ -26,6 +31,9 @@
 }
 
 @media (min-width: 750px) {
+  .jk--hide {
+    display: block;
+  }
   .Contact--Section1--Container {
     display: flex;
     justify-content: space-between;
