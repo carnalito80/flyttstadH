@@ -6,19 +6,27 @@ font-weight: 600;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
 background-position: center;
-/* background-position: -71px 20%; */
+
 background-repeat: no-repeat;
 background-size: cover;
 color: white;
-/* height: 100%;
---translateX: -174.617px;
-transform: translateX(var(--translateX)); */
+
+}
+.Overlay {
+  height:  860px; 
+  background-color: #0C0C0C6E;
+  opacity: 0.72;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 @media only screen and (max-device-width: 1366px) {
   .Parallax {
     background-attachment: scroll;
+    min-height: 950px;
   }
+  .Overlay {
+    height:  950px;
+  } 
 }
 .Parallax ul {
   width: 100%;
@@ -38,12 +46,7 @@ transform: translateX(var(--translateX)); */
   font-size: 16px;
 font-weight: 400;
 }
-.Overlay {
-  height:  860px; 
-  background-color: #0C0C0C6E;
-  opacity: 0.72;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-}
+
 .Left {
   max-width: 80%;
 }

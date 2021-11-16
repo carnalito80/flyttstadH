@@ -3,7 +3,7 @@ import './Stars.css'
 import { Star } from 'react-feather'
 
 export default () => (
-  <div>
+  <div className="starz">
   
     
     <section className="Contact--Section1">
