@@ -28,11 +28,12 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
     <section className="section">
       <div className="container introjk">
         <h3 >Är du i behov av en städfirma?</h3>
-       <p> Fyttstädning Helsingborg -en pålitlig städfirma med personal du kan lita på ✔️.<br />
-          Vi erbjuder fasta priser och städgaranti ✔️. <br />
-      <strong>Boka oss eller begär en offert enkelt online ✔️.</strong>
-        {/* <p>“vi på flyttstädning Helsingborg är en pålitlig städfirma, med personal som du kan lita på”<br></br>
-        <strong>Gör som flera andra och boka flyttstädning Helsingborg redan idag</strong> */}
+       <p>Tre enkla anledningar att anlita Fyttstädning Helsingborg: <br />
+       ✔️ Personal du kan lita på.<br />
+       ✔️ Fasta priser och städgaranti. <br />
+       ✔️ Enkelt att boka, antingen <a href="/#bokaoss">online</a> eller via <a href="tel:073 637 99 08">telefon</a> <br />
+      <strong>Fortfarande osäker? Begär enkelt en <a href="/kontakt/">offert</a> online.</strong>
+       
         </p>
         <div  onClick={() => scrollTo('#priser')} className="Button">Priser</div>
       </div>
