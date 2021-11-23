@@ -44,7 +44,7 @@ export default () => (
                 <Mail /> info@flyttstädning-helsingborg.nu
               </a>
               <a className="Contact--Details--Item" href="">
-                <Info /> Org nr 556930-5146
+                <Info /> Org nr 559241-9229
               </a>
           
           </div>
