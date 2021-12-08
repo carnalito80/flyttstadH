@@ -10,14 +10,15 @@ class Form extends React.Component {
     name: 'Flyttstädning-Helsingborg',
     subject: 'Flyttstädning-Helsingborg Bokning', // optional subject of the notification email
     action: 'https://formspree.io/f/xrgrldjd', //prod
-    // action: 'https://formspree.io/f/xlepjnol', //test
+   // action: 'https://formspree.io/f/xlepjnol', //test
     method: 'POST',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
-    errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.'
+    errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss på telefonnr 073 637 99 08 .'
   }
 
   state = {
     alert: '',
+    alertclass: 'Form--Alert',
     disabled: false
   }
 
@@ -26,6 +27,7 @@ class Form extends React.Component {
     if (this.state.disabled) return
     const form = e.target
     const data = serialize(form)
+    console.log(data);
     if (data.infon !== '') {
       this.setState({
         alert: "Informationen inte skickad (I). Tack!",
@@ -40,11 +42,13 @@ class Form extends React.Component {
       })
         return
     }
+    
+      delete data.matrix;
+      delete data.infon;
+      data._replyto = data.email;
+      
 
-    delete data.matrix;
-    delete data.infon;
-    data._replyto = data.email;
-
+    
     this.setState({ disabled: true })
     fetch(form.action, {
       method: 'POST',
@@ -58,25 +62,27 @@ class Form extends React.Component {
       body:  stringify(data),
     })
       .then(res => {
-        if (res.ok) {
+        if (res) {
           return res
         } else {
+          console.log("kaos");
           console.log(res);
-        // throw new Error('Network error')
         }
       })
       .then(() => {
         form.reset()
         this.setState({
           alert: this.props.successMessage,
-          disabled: false
+          disabled: false,
+          alertclass: 'Form--Alert-Cool'
         })
       })
       .catch(err => {
         console.error(err)
         this.setState({
           disabled: false,
-          alert: this.props.errorMessage
+          alert: this.props.errorMessage,
+          alertclass: 'Form--Alert-Bad'
         })
       })
   }
@@ -90,6 +96,7 @@ class Form extends React.Component {
           {<script src="https://www.google.com/recaptcha/api.js" />}
         </Helmet> */}
         <form
+          // autoComplete="off" 
           className="Form"
           name={name}
           action={action}
@@ -97,7 +104,7 @@ class Form extends React.Component {
          
         >
           {this.state.alert && (
-            <div className="Form--Alert">{this.state.alert}</div>
+            <div className={this.state.alertclass} >{this.state.alert}</div>
           )}
            
       <label className='Form--Label'>
@@ -173,7 +180,7 @@ class Form extends React.Component {
      <div >
          <fieldset>
            
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            
            <input 
            className="Form--RadioInput"
@@ -184,7 +191,7 @@ class Form extends React.Component {
          />
            <span>0-49 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -193,7 +200,7 @@ class Form extends React.Component {
            />
            <span>50-59 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -202,7 +209,7 @@ class Form extends React.Component {
            />
            <span>60-69 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -211,7 +218,7 @@ class Form extends React.Component {
            />
            <span>70-79 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -220,7 +227,7 @@ class Form extends React.Component {
            />
            <span>80-89 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -229,7 +236,7 @@ class Form extends React.Component {
            />
            <span>90-99 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -238,7 +245,7 @@ class Form extends React.Component {
            />
            <span>100-114 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -247,7 +254,7 @@ class Form extends React.Component {
            />
            <span>115-124 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -256,7 +263,7 @@ class Form extends React.Component {
            />
            <span>125-136 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -265,7 +272,7 @@ class Form extends React.Component {
            />
            <span>137-148 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -274,7 +281,7 @@ class Form extends React.Component {
            />
            <span>149-159 kvm</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -290,13 +297,15 @@ class Form extends React.Component {
         
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
-          <label class="Form--Shelf"><span>email</span>
-          <input autocomplete="off" className="Form--Shelf" type="text" name="matrix" placeholder="your matrix" defaultValue=""  />
+          
+          <label className="Form--Shelf"><span>email</span>
+          <input autoComplete="off" className="Form--Shelf" type="text" name="matrix" placeholder="your matrix" defaultValue="" />
           </label>
        
-          <label class="Form--Shelf"><span>info</span>
-          <input autocomplete="off" className="Form--Shelf" type="text"type="text" name="infon" placeholder="your info" defaultValue="" />
+          <label className="Form--Shelf"><span>info</span>
+          <input autoComplete="off" className="Form--Shelf" type="text" name="infon" placeholder="your info" defaultValue="" />
           </label>
+        
          <input
             className="Button Form--SubmitButton"
             type="submit"
