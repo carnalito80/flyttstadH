@@ -2,7 +2,7 @@
 template: DefaultPage
 slug: om-oss-pa-flyttstadning-helsingborg
 title: Om oss
-featuredImage: '../images/flyttstadning.jpg'
+featuredImage: '../images/flyttstadning_hel.webp'
 meta:
   description: Vår städfirma Flyttstädning Helsingborg består av ett antal personer som alla har lång erfarenhet av flyttstädning. Vi är punktliga. Vi utför alla uppdrag inom begärd tid.  Självklart har vi F-skattsedel och är försäkrade vid Länsförsäkringar för eventuella skador hos kund på upp till tio miljoner kronor.
   title: Om oss | Flyttstädning Helsingborg 🧹

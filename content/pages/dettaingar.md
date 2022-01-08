@@ -2,7 +2,7 @@
 template: DefaultPage
 slug: detta-ingar-i-flyttstadningen
 title: Detta ingår i flyttstädningen
-featuredImage: '../images/flyttstadning.jpg'
+featuredImage: '../images/flyttstadning_hel.webp'
 offertknapp: 'Begär offert'
 subtitle:
 meta:

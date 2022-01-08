@@ -4,7 +4,7 @@ import './Parallax.css'
 export default () => (
     <section >
         <div className="Parallax" style={{
-            backgroundImage: `url(/images/flyttstadning.jpg)`
+            backgroundImage: `url(/images/flyttstadning_hel.webp)`
         }}>
         <div className="Overlay">
          <div className="container">
