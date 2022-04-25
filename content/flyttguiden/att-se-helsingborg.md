@@ -7,7 +7,7 @@ categories:
   - category: Flyttstädning
 featuredImage: '../images/karnan-helsingborg.webp'
 excerpt: >-
-Helsingborg är en kuststad i Skåne med cirka 112 000 invånare. Staden är känd för sin gamla stadskärna och det gamla medeltidstornet Kärnan.
+  Helsingborg är en kuststad i Skåne med cirka 112 000 invånare. Staden är känd för sin gamla stadskärna och det gamla medeltidstornet Kärnan.
 meta:
   description: En artikel om tips att göra i Helsingborg.
   title: Att göra och se i Helsingborg
