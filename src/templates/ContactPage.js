@@ -33,7 +33,7 @@ export const ContactPageTemplate = ({
       <div className="container Contact--Section1--Container">
         <div>
           <Content source={body} />
-          <div className="Contact--Details">
+          <div className="Contact--Details jk--hide">
             {address && (
               <a
                 className="Contact--Details--Item"
