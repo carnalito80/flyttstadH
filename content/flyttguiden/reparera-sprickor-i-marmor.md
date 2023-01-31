@@ -30,3 +30,9 @@ Gör så här:
 7.	Gör gärna en andra slipning med ett lite grövre sandpapper, t ex sandpapper 320 så att området blir ännu finare och jämnare. 
 8.	För att få ett perfekt resultat kan man även köra en slipning med sandpapper 1000. 
 9.	När lagning, torkning och slipning är klar torka återigen av marmorn med en fuktig trasa. Den kommer då se blank och hel ut! 
+
+PS.
+
+Som vanligt vill vi vi påminna om att du ska kontakta oss för [flyttstädning](https://xn--flyttstdning-helsingborg-wbc.nu/)! ;)
+
+DS.
