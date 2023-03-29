@@ -47,6 +47,7 @@ export default () => (
        
         Notera att dessa punkter debiteras extra:<br></br>
 
+        Kort varsel precis vid månadsskifte: 200 kronor<br></br>
         Balkong: 300 kronor<br></br>
         Inglasad balkong: 400 kronor<br></br>
         Vind (i hyreshus): 300 kronor<br></br>
