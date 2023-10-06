@@ -15,7 +15,7 @@ meta:
 
 ##### Allmänt
 
-- Garanti (14 dagar) ingår allid, läs mer under (vanliga frågor)[https://xn--flyttstdning-helsingborg-wbc.nu/vanliga-fragor/].
+- Garanti (14 dagar) ingår allid, läs mer under [vanliga frågor](https://xn--flyttstdning-helsingborg-wbc.nu/vanliga-fragor/).
 - Dammsugning och våttorkning av golv
 - Damning av väggar vid behov. Fläckar tas bort om det inte finns risk att tapeten skadas.
 - Lister, eluttag, strömbrytare torkas av
