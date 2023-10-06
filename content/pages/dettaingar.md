@@ -11,7 +11,7 @@ meta:
   canonicalLink: https://xn--flyttstdning-helsingborg-wbc.nu/detta-ingar-i-flyttstadningen/
 ---
 
-## I vår flyttstädning ingår följande tjänster:
+## I våran flyttstädning ingår följande tjänster:
 
 ##### Allmänt
 
