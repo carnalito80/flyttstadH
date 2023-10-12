@@ -4,14 +4,14 @@ slug: vanliga-fragor
 title: Vanliga Frågor
 featuredImage: '../images/flyttstadning-helsingborg.webp'
 meta:
-  description: Vi har en garanti på 14 dagar och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister. 
+  description: Vi har en garanti på 14 dagar och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Kom ihåg att vi endast kommer 1 gång och åtgärdar eventuella brister. 
   title: Vanliga Frågor | Flyttstädning Helsingborg
   canonicalLink: https://xn--flyttstdning-helsingborg-wbc.nu/vanliga-fragor/
 
 ---
 
 #### Besiktning och garanti
-Vi har en garanti på **14 dagar** och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem så snart som möjligt utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. **Observera att vi endast kommer 1 gång och åtgärdar eventuella brister.** Därför är det bra om ni (eller hyresvärd / köpare) är med vid ombesiktningen och går igenom städningen med oss. Och vi åtgärdar enbart de brister som påpekades vid den första besiktningen.
+Vi har en garanti på **14 dagar** och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem så snart som möjligt utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Kom ihåg att vi endast kommer 1 gång och åtgärdar eventuella brister, därför är det bra om ni (eller hyresvärd / köpare) är med vid ombesiktningen och går igenom städningen med oss, så att alla är överrens.
 
 ***Förbehåll***  
 
@@ -37,7 +37,7 @@ Material- och resekostnader i samband med husarbetet ger inte rätt till skatter
 
 #### Hur fungerar det i praktiken? Behöver jag ligga ute med egna pengar eller fylla i ansökningar till Skatteverket?
 
-Svaret är: NEJ!
+Nej, det behöver du inte.
 
 ***Vi drar rabatten direkt*** på fakturan eller kvittot och när vi fått betalt från dig ansöker vi om resterande del av arbetskostnaden från Skatteverket. För detta arbete tar vi ut en administrationsavgift på endast 25 kronor per kund.
 

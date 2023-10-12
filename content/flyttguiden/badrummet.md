@@ -8,9 +8,9 @@ categories:
   - category: Städning
 featuredImage: '../images/badrum.jpg'
 excerpt: >-
- adrum och toalett, där är det viktigt att hålla rent! Det eftersom det är ett rum där bakterier gärna frodas. Eftersom det även ofta är en fuktig miljö, så kan det drabbas av mögel. Det är därför bra att städa badrummet, minst en gång i veckan.
+ Badrum och toalett, där är det viktigt att hålla rent! Det eftersom det är ett rum där bakterier gärna frodas. Eftersom det även ofta är en fuktig miljö, så kan det drabbas av mögel. Det är därför bra att städa badrummet, minst en gång i veckan.
 meta:
-  description: En artikel om tips vid stdäning av badrum och toalett, de i särklass viktigaste rummen att hålla ordentligt rena.
+  description: En artikel om tips vid städning av badrum och toalett, de i särklass viktigaste rummen att hålla ordentligt rena.
   title: Städa badrummet - bästa städtipsen för badrummet
 ---
 

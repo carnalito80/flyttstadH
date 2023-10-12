@@ -2,7 +2,7 @@
 template: DefaultPage
 slug: detta-ingar-i-flyttstadningen
 title: Detta ingår i flyttstädningen
-featuredImage: '../images/flyttstadning.jpg'
+featuredImage: '../images/flyttstadning_hel.webp'
 offertknapp: 'Begär offert'
 subtitle:
 meta:
@@ -11,10 +11,11 @@ meta:
   canonicalLink: https://xn--flyttstdning-helsingborg-wbc.nu/detta-ingar-i-flyttstadningen/
 ---
 
-## I vår flyttstädning ingår följande tjänster:
+## I våran flyttstädning ingår följande tjänster:
 
 ##### Allmänt
 
+- Garanti (14 dagar) ingår allid, läs mer under [vanliga frågor](https://xn--flyttstdning-helsingborg-wbc.nu/vanliga-fragor/).
 - Dammsugning och våttorkning av golv
 - Damning av väggar vid behov. Fläckar tas bort om det inte finns risk att tapeten skadas.
 - Lister, eluttag, strömbrytare torkas av
@@ -52,7 +53,11 @@ meta:
 
 ##### Extra
 
-- Om ni vill att vi utför något utöver ovanstående, såsom städning av balkong, källare eller vind, kan vi självklart göra det till en extra kostnad.
+- Om ni vill att vi utför något utöver ovanstående, såsom städning av balkong, källare eller vind, kan vi självklart göra det till en extra kostnad.  
+
+
+<a href="https://xn--flyttstdning-helsingborg-wbc.nu/#bokaoss"><div class="Button">Boka din städning nu.</div></a>
+
 
 ### Observera
 
