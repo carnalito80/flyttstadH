@@ -28,6 +28,15 @@ color: white;
     height:  1200px;
   } 
 }
+@media only screen and (max-width: 770px) {
+  .Parallax {
+    background-attachment: scroll;
+    min-height: 1250px;
+  }
+  .Overlay {
+    height:  1250px;
+  } 
+}
 .Parallax ul {
   width: 100%;
 

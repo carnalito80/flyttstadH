@@ -1,7 +1,7 @@
 import React from 'react'
 // import InstagramFeed from './InstagramFeed'
 import './Footer.css'
-import { MapPin, Smartphone, Mail, Info, Disc } from 'react-feather'
+import { Smartphone, Mail, Info, Disc } from 'react-feather'
 
 export default () => (
   <div>
@@ -43,7 +43,7 @@ export default () => (
               <a className="Contact--Details--Item" href="mailto:info@xn--flyttstdning-helsingborg-wbc.nu">
                 <Mail /> info@flyttstädning-helsingborg.nu
               </a>
-              <a className="Contact--Details--Item" href="">
+              <a className="Contact--Details--Item" href="/kontakt/">
                 <Info /> Org nr 559241-9229
               </a>
           
