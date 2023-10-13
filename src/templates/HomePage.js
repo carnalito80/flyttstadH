@@ -29,7 +29,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
       <div className="container introjk">
         <h3 >Är du i behov av en städfirma?</h3>
        <p>Tre enkla anledningar att anlita Fyttstädning Helsingborg: <br />
-       ✔️ Personal du kan lita på.<br />
+       ✔️ Egen personal du kan lita på. Inga underentrepenörer.<br />
        ✔️ Fasta priser (givetvis även prisgaranti), och städgaranti. <br />
        ✔️ Enkelt att boka, antingen <a href="/#bokaoss">online</a> eller via <a href="tel:073 637 99 08">telefon</a> <br />
       <strong>Fortfarande osäker? Begär enkelt en <a href="/kontakt/">offert</a> online, eller ring oss på <a href="tel:073 637 99 08">073 637 99 08</a></strong> 
