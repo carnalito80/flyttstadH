@@ -22,7 +22,7 @@ const month = ["Januari","Februari","Mars","April","Maj","Juni","Juli","Augusti"
 const d = new Date();
 campaign.month = month[d.getMonth()];
 
-// console.log(campaign, process.env.CAMPAIGN)
+console.log(campaign, process.env.CAMPAIGN)
 
 export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, body}) => (
 
