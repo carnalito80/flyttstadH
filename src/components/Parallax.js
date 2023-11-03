@@ -42,8 +42,8 @@ export default () => (
                 Över 159 kvm<span className="Separator"></span>
                 begär offert</li>
             </ul>
-            <div class="PostSection">
-                <div class="PostSection--GridJK">
+            <div className="PostSection">
+                <div className="PostSection--GridJK">
                     <div className="Paratitle">
                         <p className="Paradesc">Administrativ avgift på 25 kronor tillkommer.<br></br>
                     
@@ -56,11 +56,11 @@ export default () => (
                         Källare i hyreshus: 300 kronor<br></br>
                         </p>
                     </div>
-                    <div class="PostCard--HomeP relative">
+                    <div className="PostCard--HomeP relative">
                         <p>
                         Vi erbjuder även prisgaranti, det vill säga, om du hittar samma tjänst till lägre pris än oss matchar vi det priset.
                        <br></br><br></br></p>
-                        <a href="/#bokaoss"><div class="Button">Boka din städning nu</div></a>
+                        <a href="/#bokaoss"><div className="Button">Boka din städning nu</div></a>
 
                     </div>
                 </div>

@@ -56,8 +56,11 @@ meta:
 - Om ni vill att vi utför något utöver ovanstående, såsom städning av balkong, källare eller vind, kan vi självklart göra det till en extra kostnad.  
 
 
-<a href="https://xn--flyttstdning-helsingborg-wbc.nu/#bokaoss"><div class="Button">Boka din städning nu.</div></a>
+<a href="https://xn--flyttstdning-helsingborg-wbc.nu/#bokaoss">
+  <div class="Button">Boka din städning nu.</div>
+</a>  
 
+<br><br>
 
 ### Observera
 

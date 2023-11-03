@@ -13,9 +13,19 @@ import Image from '../components/Image'
 import '../components/PostCard.css'
 import '../components/PostSection.css'
 
+const campaign = {};
+if(process.env.CAMPAIGN && process.env.CAMPAIGN == 'true') campaign.active = true;
+else campaign.active = false;
+campaign.percentage = 35;
+const month = ["Januari","Februari","Mars","April","Maj","Juni","Juli","Augusti","September","Oktober","November","December"];
 
-// Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, body }) => (
+const d = new Date();
+campaign.month = month[d.getMonth()];
+
+// console.log(campaign, process.env.CAMPAIGN)
+
+export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, body}) => (
+
   <main className="Home">
     <PageHeader
       large
@@ -23,6 +33,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
       subtitle={subtitle}
       backgroundImage={featuredImage}
       offertknapp={offertknapp}
+      hem={true} 
     />
 
     <section className="section">
@@ -35,7 +46,12 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
       <strong>Fortfarande osäker? Begär enkelt en <a href="/kontakt/">offert</a> online, eller ring oss på <a href="tel:073 637 99 08">073 637 99 08</a></strong> 
        
         </p>
-        <button onClick={() => scrollTo('#priser')} className="Button">Priser</button>
+        { !campaign.active && <button onClick={() => scrollTo('#priser')} className="Button">Priser</button> }
+        { campaign.active && 
+          <div>
+            <p><strong>Just nu har vi en kampanj med oslagbara priser, hela { campaign.percentage }% rabatt, som gäller  hela {campaign.month}.</strong></p>
+            <button onClick={() => scrollTo('#bokaoss')} className="Button">boka oss nu!</button> 
+          </div>}
       </div>
     </section>
 <section className="section">
@@ -175,17 +191,22 @@ Om det det ska rengöras bakom tvättmaskin, diskmanskiner eller torktumlare beh
   </div>
 </section>
 <div id="priser" style={{marginBottom:'100px'}}></div>
+{!campaign.active && 
 <Parallax />
+}
 <Stars />
 <div id="bokaoss" style={{marginBottom:'60px'}}></div>
 <section className="section">
 <div className="container" >
-<h2>Boka Oss På Flyttstädning Helsingborg</h2>
+<h2>Boka Oss På Flyttstädning Helsingborg {campaign.active && <span>, just nu {campaign.percentage}% rabatt hela {campaign.month} ut!</span>}</h2>
 <p>Fyll i formuläret nedan för att boka en flyttstädning. Alternativt ring <strong><a href="tel:073 637 99 08">073 637 99 08</a></strong>.</p>
 </div>
 <div className="container  Contact--Section1--Container">
 <Boka name="Flyttstädning Helsingborg" />
 <div>
+{campaign.active &&
+<h4>Boka osss nu för att ta del av våran oslagbara rabatt på {campaign.percentage}% som gäller {campaign.month} ut.</h4>
+}
 <h5>Varför vill ni veta mitt personnummer?</h5>
 <p>
 Vi behöver ha ditt personnummer om du bokar en flyttstädning med oss och vill utnyttja RUT-avdraget. Vi kan nämligen inte ansöka om utbetalning för din räkning från Skatteverket om vi inte har ditt personnummer. 
