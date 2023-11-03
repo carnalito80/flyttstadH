@@ -14,15 +14,16 @@ import '../components/PostCard.css'
 import '../components/PostSection.css'
 
 const campaign = {};
-if(process.env.CAMPAIGN && process.env.CAMPAIGN == 'true') campaign.active = true;
-else campaign.active = false;
+// if(process.env.CAMPAIGN && process.env.CAMPAIGN == 'true') campaign.active = true;
+// else campaign.active = false;
+campaign.active = true
 campaign.percentage = 35;
 const month = ["Januari","Februari","Mars","April","Maj","Juni","Juli","Augusti","September","Oktober","November","December"];
 
 const d = new Date();
 campaign.month = month[d.getMonth()];
 
-console.log(campaign, process.env.CAMPAIGN)
+// console.log(campaign, process.env.CAMPAIGN)
 
 export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, body}) => (
 
@@ -50,7 +51,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
         { campaign.active && 
           <div>
             <p><strong>Just nu har vi en kampanj med oslagbara priser, hela { campaign.percentage }% rabatt, som gäller  hela {campaign.month}.</strong></p>
-            <button onClick={() => scrollTo('#bokaoss')} className="Button">boka oss nu!</button> 
+            <button onClick={() => scrollTo('#bokaoss')} className="Button">Om inte, boka oss nu!</button> 
           </div>}
       </div>
     </section>

@@ -7,7 +7,9 @@ import Logo from './Logo'
 import './Nav.css'
 
 const campaign = {};
-if(process.env.CAMPAIGN && process.env.CAMPAIGN == 'true') campaign.active = true;
+// if(process.env.CAMPAIGN && process.env.CAMPAIGN == 'true') campaign.active = true;
+// else campaign.active = false;
+campaign.active = true;
 
 export class Navigation extends Component {
   state = {
