@@ -99,7 +99,7 @@ class Form extends React.Component {
            <strong>Jag vill..</strong>
          <div onChange={this.setType.bind(this)}>
        
-         <label class="Form--Label Form--Radio">
+         <label className="Form--Label Form--Radio">
            <input 
            className="Form--RadioInput"
            type="radio"
@@ -109,7 +109,7 @@ class Form extends React.Component {
            />
            <span>Få offert</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            
            <input 
            className="Form--RadioInput"
@@ -320,11 +320,11 @@ class Form extends React.Component {
           {!!subjectflyttstad && <input type="hidden" name="subject" value={subjectflyttstad} />}
           <input type="hidden" name="form-name" value={name} />
          
-          <label class="Form--Shelf"><span>email</span>
+          <label className="Form--Shelf"><span>email</span>
           <input autoComplete="off" className="Form--Shelf" type="text" name="matrix"  placeholder="your matrix"  defaultValue="" />
           </label>
          
-          <label class="Form--Shelf"><span>info</span>
+          <label className="Form--Shelf"><span>info</span>
           <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" defaultValue=""  />
           </label>
         
