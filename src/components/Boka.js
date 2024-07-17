@@ -127,16 +127,6 @@ class Form extends React.Component {
       />
        <span>Adress</span>
     </label>
-    <label className="Form--Label">
-            <input
-              className="Form--Input Form--InputText"
-              type="text"
-              placeholder="Personnummer"
-              name="personnr"
-              required
-            />
-             <span>Personnummer</span>
-     </label>
     <label className='Form--Label'>
       <input
         className='Form--Input Form--InputText'
@@ -156,6 +146,16 @@ class Form extends React.Component {
               required
               />
              <span>Telefonnummer</span>
+     </label>
+     <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="text"
+              placeholder="Personnummer"
+              name="personnr"
+              required
+            />
+             <span>Personnummer</span>
      </label>
      <label className="Form--Label ">
             <input
