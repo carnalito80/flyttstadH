@@ -6,6 +6,11 @@ import Logo from './Logo'
 
 import './Nav.css'
 
+const campaign = {};
+// if(process.env.CAMPAIGN && process.env.CAMPAIGN == 'true') campaign.active = true;
+// else campaign.active = false;
+campaign.active = false;
+
 export class Navigation extends Component {
   state = {
     active: false,
@@ -51,7 +56,7 @@ export class Navigation extends Component {
           <div className="Nav--Links">
             <NavLink to="/">Hem</NavLink>
             <NavLink to="/detta-ingar-i-flyttstadningen/">Detta ingår i flyttstädningen</NavLink>
-            <NavLink to="/#priser">Priser</NavLink>
+           {!campaign.active && <NavLink to="/#priser">Priser</NavLink> }
             <NavLink to="/kontakt/">Kontakta Oss</NavLink>
             <NavLink to="/om-oss-pa-flyttstadning-helsingborg/">Om oss</NavLink>
             <NavLink to="/vanliga-fragor/">Vanliga frågor</NavLink>
